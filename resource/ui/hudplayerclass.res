@@ -242,7 +242,7 @@
                 "fov"           "25"
                 "angles_x"      "-5"
                 //"angles_x_minmode"  "-3"
-                "angles_y"      "190"
+                "angles_y"      "200"
                 "angles_z"      "0"
                 "origin_x"      "145"
                 "origin_y"      "-5"

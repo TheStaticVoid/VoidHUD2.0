@@ -18,5 +18,3 @@ f_blue -- Imported and edited his winpanel for this HUD.
 https://github.com/fblue/broeselhud_blue
 
 b4stian -- I used his hudanimations_tf file as reference as how to do mine
-
-omp -- Imported and edited his scoreboard from the old version of VoidHUD to this one.

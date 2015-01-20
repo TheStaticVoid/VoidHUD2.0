@@ -25,7 +25,7 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "BlueScoreBG"
-        "xpos"          "c-291"
+        "xpos"          "c-290"
         "ypos"          "c-30"
         "zpos"          "0"
         "tall"          "30"

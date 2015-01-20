@@ -253,7 +253,7 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 	Animate	PlayerStatusHealthValue2ShadowSpec 	FgColor		"voidHPgray"			Accel 0.0 0.0
 	Animate	PlayerStatusHealthValue2 	FgColor		"voidHPgray"			Accel 0.0 0.0
-    Animate	PlayerStatusHealthValueTargetID 	FgColor		"voidHPgray"			Accel 0.0 0.0
+    Animate	PlayerStatusHealthValueTargetID 	FgColor		"voidHPwhite"			Accel 0.0 0.0
 }
 
 //===========================================

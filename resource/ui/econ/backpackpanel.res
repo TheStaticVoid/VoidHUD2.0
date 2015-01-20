@@ -404,7 +404,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
 		"xpos"			"c195" //c195
-		"ypos"			"290" //290
+		"ypos"			"320" //290
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -431,7 +431,7 @@
 		"labelText"		"%backpackpage%"
         "textAlignment"	"center"
 		"xpos"			"c220" //c220
-		"ypos"			"290" //290
+		"ypos"			"320" //290
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"20"
@@ -447,7 +447,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
 		"xpos"			"c265" //c265
-		"ypos"			"290"   //290
+		"ypos"			"320"   //290
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
