@@ -1,0 +1,22 @@
+--------------------------------------------------------------------
+Credit to anything that helped during the creation of this HUD:
+--------------------------------------------------------------------
+
+Bernd Montag -- Creator of Sansation 
+http://www.dafont.com/profile.php?user=100521
+
+broesel -- Imported his MOTD, team selection, and map info menus.  Also took a lot of inspiration from him
+http://sourceforge.net/projects/broeselhud/
+
+Doodles -- His tutorial is what even gave me the power to make this HUD
+http://doodlesstuff.com/?tutorial=tf2hud 
+
+Desmond Miles -- Steam guide let me change my TF2 menu background
+http://steamcommunity.com/sharedfiles/filedetails/?id=300985049
+
+f_blue -- Imported and edited his winpanel for this HUD.
+https://github.com/fblue/broeselhud_blue
+
+b4stian -- I used his hudanimations_tf file as reference as how to do mine
+
+omp -- Imported and edited his scoreboard from the old version of VoidHUD to this one.

@@ -1,0 +1,137 @@
+voidHUD Changelog
+----------------------------------------------
+                Version 2.0.1.4
+----------------------------------------------
++ Added scoreboard
++ PUBLIC RELEASE!!!!!!!
+~ Bug fixes
+
+
+----------------------------------------------
+                Version 2.0.1.3
+----------------------------------------------
+~ Bug fixes
+~ Fixed control point capture teardrop being offcenter
+~ Fixed last damage number overlapping with some ammo elements
+~ Adjusted HP animations
+~ Fixed "blocked" on control points being too large
++ Added winpanel ~~ Imported from broeselhud_blue
+
+
+----------------------------------------------
+                Version 2.0.1.2
+----------------------------------------------
+- Removed building HP icon from killcams
++ Added tournament spectator elements
++ Added health and ammo animations -- Please report bugs for this
++ Added the menus from the old version of VoidHUD
+
+
+----------------------------------------------
+                Version 2.0.1.1
+----------------------------------------------
+~ Moved killstreak counter down to not overlap other elements
++ Added time added from capping a point
++ Added final main menu
++ Added in-game menu
++ Added cp_process_final last background to the HUD
+
+
+----------------------------------------------
+                Version 2.0.1.0
+----------------------------------------------
+~ Adjusted spy disguise panel to not overlap other key elements
+~ Adjusted the font size for building levels and uber percentages
+~ Adjusted chat from clipping into HUD elements ~~ Copy & Paste from broesel
+~ Adjusted capture icon to be smaller
+~ Adjusted the KOTH active capture bg to fit correctly
+~ Messed with the main menu avatar & name just for now
++ Added killcam
+
+
+----------------------------------------------
+                Version 2.0.0.9
+----------------------------------------------
+~ Fixed the active timer BG in KOTH game modes
+~ Moved timer in CP and KOTH downward a tad
++ Added health pickup animation
++ Added A&D backpack page switching
++ Added class selection menu
++ Added the welcome back message and avatar to menu, will be edited later
+
+
+----------------------------------------------
+                Version 2.0.0.8
+----------------------------------------------
++ Added KOTH Timer 
++ Added A/D, CP, and other Timers
+- Removed shadow from targetIDs, caused issues in lower resolutions
+
+
+----------------------------------------------
+                Version 2.0.0.7
+----------------------------------------------
+~ Fixed medic charge being cut off when at 100%
++ Added primary and secondary targetIDs
++ Added spectator targetIDs
++ Added number health when looking at players, rather than the HP crosses
+
+
+----------------------------------------------
+                Version 2.0.0.6
+----------------------------------------------
++ Removed bars and unneeded info from spectator HUD
++ Improved itempanel location
++ Added Paylod, Payload Race, CTF, and Doomsday Objective HUD
++ Added Engineer metal HUD
++ Added respawn timers
+~ Fixed the spycicle item meter.
+
+
+----------------------------------------------
+                Version 2.0.0.5
+----------------------------------------------
+~ Moved the player class 3D model slightly to the left
++ Added control point icons
++ Added killfeed
++ Added damage numbers 
++ Added a SourceScheme that changed the look of net_graph
+
+
+----------------------------------------------
+				Version 2.0.0.4
+----------------------------------------------
++ Added bars for all weapons that have meters
++ Added Killstreak counter below HP
++ Added revenge and head counters 
++ Added Power up canteen UI
++ Added Kart UI from Scream Fortress 2014 event
++ Added Spellbook UI from Scream Fortress 2013 event
+~ Fixed numerical position differences between ammo with clip and ammo without clip
+
+
+----------------------------------------------
+				Version 2.0.0.3
+----------------------------------------------
++ Added spy disguise menu -- note HP cross will be changed to numbers
++ Added medic heal meter for uber & vaccinator charges
+~ Changed background gray to be darker
+
+
+----------------------------------------------
+                Version 2.0.0.2
+----------------------------------------------
++ Finished ammo file
++ Finished editing player class panel
+- Removed days due to issues with scaling
+
+
+----------------------------------------------
+				Version 2.0.0.1
+----------------------------------------------
+~ First redo of the HUD
++ Added new font -- Days
++ Added Ammo numbers
++ Added HP numbers for ammo that has clips & reserve ammo
++ Began editing for player class panel
+- Removed default spy animation while disguising
