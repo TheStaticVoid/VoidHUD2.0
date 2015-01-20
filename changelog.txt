@@ -4,6 +4,7 @@ voidHUD Changelog
                 Version 2.1.0.0
 ----------------------------------------------
 ~ bug fixes found after initial launch
++ Changed the size of the time panel
 
 
 ----------------------------------------------
