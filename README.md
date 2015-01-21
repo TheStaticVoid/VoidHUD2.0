@@ -10,4 +10,4 @@ HUD Group:
 http://steamcommunity.com/groups/voidhud
 
 TFTV Thread:
-http://teamfortress.tv/forum/thread/14340-voidhud
+http://teamfortress.tv/thread/22190/voidhud2-0
