@@ -68,10 +68,10 @@
 		"enabled"		"0"
 		"textAlignment"	"center"	
 	}	
-     "PlayerStatusHealthValue2" 
+     "PlayerStatusHealthValueDeathCam2" 
     {  
         "ControlName" "Label" 
-        "fieldName"  "PlayerStatusHealthValue2" 
+        "fieldName"  "PlayerStatusHealthValueDeathCam2" 
         "xpos"   "-4" 
         "ypos"   "6" 
         "zpos"   "6" 
@@ -84,10 +84,10 @@
         "font"   "sans14"     
         "fgcolor_override" "voidHPwhite"
     }	
-     "PlayerStatusHealthValue2shadow" 
+     "PlayerStatusHealthValueDeathCam2shadow" 
     {  
         "ControlName" "Label" 
-        "fieldName"  "PlayerStatusHealthValue2shadow" 
+        "fieldName"  "PlayerStatusHealthValueDeathCam2shadow" 
         "xpos"   "-3" 
         "ypos"   "7" 
         "zpos"   "6" 

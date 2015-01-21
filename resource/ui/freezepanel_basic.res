@@ -1,12 +1,12 @@
 "Resource/UI/FreezePanel_Basic.res"
 {
-	"FreezePanel"
-	{
-		"ControlName"	"CTFFreezePanel"
-		"fieldName"		"FreezePanel"
-
-		"screenshot_move_panel_to_corner"	"0"
-	}
+  "FreezePanel"
+  {
+     "ControlName"      "CTFFreezePanel"
+     "fieldName"          "FreezePanel"
+     
+     "screenshot_move_panel_to_corner"        "1"
+   }		
 	
 	"FreezePanelBase"	[$WIN32]
 	{
@@ -81,9 +81,9 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"sans14"
+			"font"			"sans12"
 			"xpos"			"61"
-			"ypos"			"169"
+			"ypos"			"173"
 			"zpos"			"5"
 			"wide"			"252"
 			"tall"			"18"
@@ -93,7 +93,6 @@
 			"enabled"		"1"
 			"labelText"		"%killername%"
 			"textAlignment"		"Left"
-            "fgcolor_override"  "voidHPwhite"
 		}
 
 		"AvatarImage"
@@ -193,4 +192,64 @@
 			}
 		}
 	}
+		
+	"ScreenshotPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ScreenshotPanel"
+		"xpos"			"c-83"
+		"ypos"			"50"
+		"zpos"			"2"
+		"wide"			"166"
+		"tall"			"40"
+		"visible"		"0"
+			
+		"ScreenshotPanelBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"ScreenshotPanelBG"
+			"xpos"			"0"
+			"ypos"			"8"
+			"zpos"			"0"
+			"wide"			"166"
+			"tall"			"38"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/freezecam_black_bg"
+			"scaleImage"		"1"
+		}
+		"ScreenshotIcon"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"ScreenshotIcon"
+			"xpos"			"3"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"36"
+			"tall"			"36"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/ico_camera"
+			"scaleImage"	"1"	
+		}		
+		"ScreenshotLabel"
+		{	
+			"ControlName"		"Label"
+			"fieldName"		"ScreenshotLabel"
+			"font"			"SpectatorKeyHints"
+			"xpos"			"40"
+			"ypos"			"25"
+			"zpos"			"2"
+			"wide"			"133"
+			"tall"			"12"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%text%"
+			"textAlignment"		"west"
+			"dulltext"		"0"
+			"brighttext"		"0"
+		}
+	}	
 }

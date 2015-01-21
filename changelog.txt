@@ -1,6 +1,15 @@
 voidHUD Changelog
 
 ----------------------------------------------
+                Version 2.1.2
+----------------------------------------------
+~ Fixed animations with the killcam HP value
+~ Fixed stickies location, so that they do not overlap with targetIDs
+~ Fixed the new items in shop icon from displaying in the menu
+~ Fixed the deathcam not showing the weapon you were killed with
++ Added more backgrounds to the main menu
+
+----------------------------------------------
                 Version 2.1.0.0
 ----------------------------------------------
 ~ bug fixes found after initial launch
