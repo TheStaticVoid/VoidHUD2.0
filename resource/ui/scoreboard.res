@@ -34,10 +34,10 @@
         "visible"       "1"
         "fillcolor"     "50 100 255 200"
         
-        //"xpos_minmode"    "r220"
-        //"ypos_minmode"    "c168"
-        //"wide_minmode"    "220"
-        //"tall_minmode"    "20"
+        "xpos_minmode"    "r310"
+        "ypos_minmode"    "c168"
+        "wide_minmode"    "295"
+        "tall_minmode"    "20"
         
         if_mvm
         {
@@ -58,10 +58,10 @@
         "visible"       "1"
         "fillcolor"     "200 50 50 200"
         
-        //"xpos_minmode"    "r220"
-        //"ypos_minmode"    "c-40"
-        //"wide_minmode"    "220"
-        //"tall_minmode"    "20"
+        "xpos_minmode"    "r310"
+        "ypos_minmode"    "c-40"
+        "wide_minmode"    "295"
+        "tall_minmode"    "20"
         
         if_mvm
         {
@@ -81,10 +81,10 @@
         "enabled"       "1"
         "fillcolor"     "25 25 25 140"
         
-        //"xpos_minmode"    "r220"
-        //"ypos_minmode"    "c-20"
-        //"wide_minmode"    "220"
-        //"tall_minmode"    "188"
+        "xpos_minmode"    "r310"
+        "ypos_minmode"    "c-20"
+        "wide_minmode"    "295"
+        "tall_minmode"    "188"
         
         if_mvm
         {
@@ -109,11 +109,11 @@
         "visible"       "1"
         "enabled"       "1"
         
-        //"xpos_minmode"    "r196"
-        //"ypos_minmode"    "c168"
-        //"wide_minmode"    "200"
-        //"tall_minmode"    "20"
-        //"textAlignment_minmode"       "east"
+        "xpos_minmode"    "r220"
+        "ypos_minmode"    "c168"
+        "wide_minmode"    "200"
+        "tall_minmode"    "20"
+        "textAlignment_minmode"       "east"
         
         if_mvm
         {
@@ -157,11 +157,11 @@
         "visible"   "1"
         "enabled"   "1"
         
-        //"xpos_minmode"    "r220"
-        //"ypos_minmode"    "c170"
-        //"wide_minmode"    "200"
-        //"tall_minmode"    "40"
-        //"textAlignment_minmode"       "west"
+        "xpos_minmode"    "r310"
+        "ypos_minmode"    "c165"
+        "wide_minmode"    "200"
+        "tall_minmode"    "40"
+        "textAlignment_minmode"       "west"
         
         if_mvm
         {
@@ -187,11 +187,11 @@
         "visible"   "1"
         "enabled"   "1"
         
-        //"xpos_minmode"    "r220"
-        //"ypos_minmode"    "c171"
-        //"wide_minmode"    "200"
-        //"tall_minmode"    "40"
-        //"textAlignment_minmode"       "west"
+        "xpos_minmode"    "r308"
+        "ypos_minmode"    "c167"
+        "wide_minmode"    "200"
+        "tall_minmode"    "40"
+        "textAlignment_minmode"       "west"
         
         if_mvm
         {
@@ -216,11 +216,11 @@
         "visible"       "1"
         "enabled"       "1"
         
-        //"xpos_minmode"    "r250"
-        //"ypos_minmode"    "c168"
-        //"wide_minmode"    "200"
-        //"tall_minmode"    "20"
-        //"textAlignment_minmode"       "east"
+        "xpos_minmode"    "r300"
+        "ypos_minmode"    "c168"
+        "wide_minmode"    "200"
+        "tall_minmode"    "20"
+        "textAlignment_minmode"       "east"
         
         if_mvm
         {
@@ -245,10 +245,10 @@
         "visible"       "1"
         "enabled"       "1"
         
-        //"xpos_minmode"    "r196"
-        //"ypos_minmode"    "c-40"
-        //"wide_minmode"    "200"
-        //"tall_minmode"    "20"
+        "xpos_minmode"    "r220"
+        "ypos_minmode"    "c-40"
+        "wide_minmode"    "200"
+        "tall_minmode"    "20"
         
         if_mvm
         {
@@ -274,10 +274,10 @@
         "visible"   "1"
         "enabled"   "1"
         
-        ///"xpos_minmode"   "r220"
-        //"ypos_minmode"    "c-60"
-        //"wide_minmode"    "200"
-        //"tall_minmode"    "40"
+        "xpos_minmode"   "r310"
+        "ypos_minmode"    "c-55"
+        "wide_minmode"    "200"
+        "tall_minmode"    "40"
                 
         if_mvm
         {
@@ -303,10 +303,10 @@
         "visible"   "1"
         "enabled"   "1"
         
-        //"xpos_minmode"    "r220"
-        //"ypos_minmode"    "c-59"
-        //"wide_minmode"    "200"
-        //"tall_minmode"    "40"
+        "xpos_minmode"    "r308"
+        "ypos_minmode"    "c-53"
+        "wide_minmode"    "200"
+        "tall_minmode"    "40"
         
         if_mvm
         {
@@ -331,11 +331,11 @@
         "visible"       "1"
         "enabled"       "1"
         
-        //"xpos_minmode"    "r250"
-        //"ypos_minmode"    "c-40"
-        //"wide_minmode"    "200"
-        //"tall_minmode"    "20"
-        //"textAlignment_minmode"       "east"
+        "xpos_minmode"    "r300"
+        "ypos_minmode"    "c-40"
+        "wide_minmode"    "200"
+        "tall_minmode"    "20"
+        "textAlignment_minmode"       "east"
         
         if_mvm
         {
@@ -360,7 +360,8 @@
         "visible"       "1" [$WIN32]
         "enabled"       "1"
         
-        //"visible_minmode"       "0"
+        "visible_minmode"       "1"
+        "xpos_minmode"      "c-390"
         
         if_mvm
         {
@@ -384,9 +385,9 @@
         "visible"       "1" [$WIN32]
         "enabled"       "1"
         
-        //"xpos_minmode"        "r198"
-        //"ypos_minmode"        "c310"
-        //"textAlignment_minmode"       "east"
+        "xpos_minmode"        "r220"
+        "ypos_minmode"        "r300"
+        "textAlignment_minmode"       "east"
         
         if_mvm
         {
@@ -410,10 +411,10 @@
         "linespacing"   "14"
         "fgcolor"       "blue"		
         
-        //"xpos_minmode"    "r220"
-        //"ypos_minmode"    "c74"
-        //"wide_minmode"    "225"
-        //"tall_minmode"    "94"
+        "xpos_minmode"    "r310"
+        "ypos_minmode"    "c74"
+        "wide_minmode"    "293"
+        "tall_minmode"    "94"
         
         if_mvm
         {
@@ -437,12 +438,11 @@
         "linespacing"   "14"
         "textcolor"     "red"
         
-        //"xpos_minmode"    "r220"
-        //"ypos_minmode"    "c-20"
-        //"wide_minmode"    "225"
-        //"tall_minmode"    "94"
-        
-        if_mvm
+        "xpos_minmode"    "r310"
+        "ypos_minmode"    "c-20"
+        "wide_minmode"    "293"
+        "tall_minmode"    "94"
+                 if_mvm
         {
             "visible"       "0"
         }
@@ -470,6 +470,8 @@
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
+        
+        "xpos_minmode" "c-400"
         
         if_mvm
         {

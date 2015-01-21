@@ -17,4 +17,11 @@ http://steamcommunity.com/sharedfiles/filedetails/?id=300985049
 f_blue -- Imported and edited his winpanel for this HUD.
 https://github.com/fblue/broeselhud_blue
 
-b4stian -- I used his hudanimations_tf file as reference as how to do mine
+b4stian -- I used his hudanimations_tf file as reference as how to do mine, and they're still kinda broke, lol.
+http://www.teamfortress.tv/user/b4stian  
+
+raysfire -- Used his hud as reference on how to install closed captions
+http://www.teamfortress.tv/user/rays
+
+Fog -- Used his custom crosshairs
+http://teamfortress.tv/thread/1261/fogs-custom-hud-crosshairs-version-2-0-released

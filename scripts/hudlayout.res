@@ -1,5 +1,221 @@
 "Resource/HudLayout.res"
 {
+        //crosshairs
+        
+       xHairSpread
+        {
+            "controlName" "CExLabel"
+            "fieldName" "xHairSpread"
+            "visible" "0"
+            "enabled" "1"
+            "zpos" "2"
+    
+            "xpos" "c-100"
+            "ypos" "c-98"
+            "wide" "202"
+            "tall" "198"
+
+            "font" "xHairSpread"
+            "labelText" "0"
+            "textAlignment" "center"
+        
+            "fgcolor" "255 255 255 192"
+        }
+       xHairSmallCross
+        {
+            "controlName" "CExLabel"
+            "fieldName" "xHairSmallCross"
+            "visible" "0"
+            "enabled" "1"
+            "zpos" "2"
+    
+            "xpos" "c-104"
+            "ypos" "c-98"
+            "wide" "203"
+            "tall" "198"
+
+            "font" "xHairSmallCross"
+            "labelText" "1"
+            "textAlignment" "center"
+        
+            "fgcolor" "255 255 255 192"
+        }
+       xHairCross
+        {
+            "controlName" "CExLabel"
+            "fieldName" "xHairCross"
+            "visible" "0"
+            "enabled" "1"
+            "zpos" "2"
+    
+            "xpos" "c-102"
+            "ypos" "c-98"
+            "wide" "202"
+            "tall" "198"
+
+            "font" "xHairCross"
+            "labelText" "2"
+            "textAlignment" "center"
+        
+            "fgcolor" "255 255 255 192"
+        }
+       xHairDot
+        {
+            "controlName" "CExLabel"
+            "fieldName" "xHairDot"
+            "visible" "0"
+            "enabled" "1"
+            "zpos" "2"
+    
+            "xpos" "c-104"
+            "ypos" "c-99"
+            "wide" "203"
+            "tall" "198"
+
+            "font" "xHairDot"
+            "labelText" "3"
+            "textAlignment" "center"
+        
+            "fgcolor" "255 255 255 192"
+        }
+       xHairDotSmall
+        {
+            "controlName" "CExLabel"
+            "fieldName" "xHairDotSmall"
+            "visible" "0"
+            "enabled" "1"
+            "zpos" "2"
+    
+            "xpos" "c-105"
+            "ypos" "c-98"
+            "wide" "203"
+            "tall" "198"
+
+            "font" "xHairDotSmall"
+            "labelText" "4"
+            "textAlignment" "center"
+        
+            "fgcolor" "255 255 255 192"
+        }
+       xHairSquare
+        {
+            "controlName" "CExLabel"
+            "fieldName" "xHairSquare"
+            "visible" "0"
+            "enabled" "1"
+            "zpos" "2"
+    
+            "xpos" "c-104"
+            "ypos" "c-98"
+            "wide" "202"
+            "tall" "198"
+
+            "font" "xHairSquare"
+            "labelText" "5"
+            "textAlignment" "center"
+        
+            "fgcolor" "255 255 255 192"
+        }
+       xHairSplitCross
+        {
+            "controlName" "CExLabel"
+            "fieldName" "xHairSplitCross"
+            "visible" "0"
+            "enabled" "1"
+            "zpos" "2"
+    
+            "xpos" "c-101"
+            "ypos" "c-96"
+            "wide" "202"
+            "tall" "198"
+
+            "font" "xHairSplitCross"
+            "labelText" "7"
+            "textAlignment" "center"
+        
+            "fgcolor" "255 255 255 192"
+        }
+       xHairCircleDot
+        {
+            "controlName" "CExLabel"
+            "fieldName" "xHairCircleDot"
+            "visible" "0"
+            "enabled" "1"
+            "zpos" "2"
+    
+            "xpos" "c-101"
+            "ypos" "c-96"
+            "wide" "202"
+            "tall" "198"
+
+            "font" "xHairCircleDot"
+            "labelText" "8"
+            "textAlignment" "center"
+        
+            "fgcolor" "255 255 255 192"
+        }
+       xHairCircle
+        {
+            "controlName" "CExLabel"
+            "fieldName" "xHairCircle"
+            "visible" "0"
+            "enabled" "1"
+            "zpos" "2"
+    
+            "xpos" "c-101"
+            "ypos" "c-96"
+            "wide" "202"
+            "tall" "198"
+
+            "font" "xHairCircle"
+            "labelText" "9"
+            "textAlignment" "center"
+        
+            "fgcolor" "255 255 255 192"
+        }
+       xHairBrokeCrossNoDot
+        {
+            "controlName" "CExLabel"
+            "fieldName" "xHairBrokeCrossNoDot"
+            "visible" "0"
+            "enabled" "1"
+            "zpos" "2"
+    
+            "xpos" "c-101"
+            "ypos" "c-99"
+            "wide" "203"
+            "tall" "198"
+
+            "font" "xHairBrokeCrossNoDot"
+            "labelText" ","
+            "textAlignment" "center"
+        
+            "fgcolor" "255 255 255 192"
+        }
+       xHairBrackets
+        {
+            "controlName" "CExLabel"
+            "fieldName" "xHairBrackets"
+            "visible" "0"
+            "enabled" "1"
+            "zpos" "2"
+    
+            "xpos" "c-101"
+            "ypos" "c-97"
+            "wide" "203"
+            "tall" "199"
+
+            "font" "xHairBrackets"
+            "labelText" "d"
+            "textAlignment" "center"
+        
+            "fgcolor" "255 255 255 192"
+        }
+
+
+
+
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -552,9 +768,9 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	
-		"wide"		"500"
+		"xpos"		"10"
+		"ypos"		"275"	
+		"wide"		"150"
 		"tall"		"136"	
 
 		"BgAlpha"	"128"

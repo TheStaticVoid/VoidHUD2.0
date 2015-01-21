@@ -2489,7 +2489,117 @@ Scheme
             }
         }
         
-        
+        // START FOG CROSSHAIR INSTANCES
+        "xHairSpread"
+        {
+            "1"
+            {
+                "name" "Crosshairs"
+                "tall" "28"
+                "weight" "0"
+                "antialias" "1"
+            }
+        }
+        "xHairSmallCross"
+        {
+            "1"
+            {
+                "name" "Crosshairs"
+                "tall" "28"
+                "weight" "0"
+                "antialias" "1"
+            }
+        }
+        "xHairCross"
+        {
+            "1"
+            {
+                "name" "Crosshairs"
+                "tall" "28"
+                "weight" "0"
+                "antialias" "1"
+            }
+        }
+        "xHairDot"
+        {
+            "1"
+            {
+                "name" "Crosshairs"
+                "tall" "28"
+                "weight" "0"
+                "antialias" "1"
+            }
+        }
+        "xHairDotSmall"
+        {
+            "1"
+            {
+                "name" "Crosshairs"
+                "tall" "28"
+                "weight" "0"
+                "antialias" "1"
+            }
+        }
+        "xHairSquare"
+        {
+            "1"
+            {
+                "name" "Crosshairs"
+                "tall" "28"
+                "weight" "0"
+                "antialias" "1"
+            }
+        }
+        "xHairSplitCross"
+        {
+            "1"
+            {
+                "name" "Crosshairs"
+                "tall" "28"
+                "weight" "0"
+                "antialias" "1"
+            }
+        }
+        "xHairCircleDot"
+        {
+            "1"
+            {
+                "name" "Crosshairs"
+                "tall" "28"
+                "weight" "0"
+                "antialias" "1"
+            }
+        }
+        "xHairCircle"
+        {
+            "1"
+            {
+                "name" "Crosshairs"
+                "tall" "28"
+                "weight" "0"
+                "antialias" "1"
+            }
+        }
+        "xHairBrokeCrossNoDot"
+        {
+            "1"
+            {
+                "name" "Crosshairs"
+                "tall" "28"
+                "weight" "0"
+                "antialias" "1"
+            }
+        }
+        "xHairBrackets"
+        {
+            "1"
+            {
+                "name" "Crosshairs"
+                "tall" "28"
+                "weight" "0"
+                "antialias" "1"
+            }
+        }
 		
 		//
 		//////////////////// ECON FONTS //////////////////////////////
@@ -4440,6 +4550,11 @@ Scheme
         {
             "font" "resource/fonts/sansation_bold.ttf"
             "name" "Sansation"
+        }
+        "8" //crosshairs
+        {
+            "font" "resource/fonts/crosshairs.ttf"
+            "name" "Crosshairs"
         }
 	}
 }

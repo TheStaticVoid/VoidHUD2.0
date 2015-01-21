@@ -1,0 +1,35 @@
+----------------------------------------------
+            VoidHUD2.0 Installation
+----------------------------------------------
+1.) Navigate to the Zip you downloaded voidHUD2.0 within
+2.) Extract files into a folder named voidHUD2.0 on your desktop
+3.) Move the voidHUD2.0 folder you just created to your TF2 custom folder.  This can be found by either going to:
+
+C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom\
+or if you're on a 64-bit OS:
+C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\
+
+If you have installed Steam into another directory, please navigate to it and follow the above folder navigation.
+4.) Run TF2 and the HUD should be installed
+
+----------------------------------------------
+            Fog's Custom Crosshair
+                    Installation
+----------------------------------------------
+1.) Navigate to your voidHUD2.0 folder in tf\custom\.
+2.) Open the 'scripts' folder
+3.) Open the 'hudlayout.res' file in the text editor of your choice
+4.) Using the 'crosshairs.png' file, navigate through 'hudlayout.res' and change the "visible" "0" to "visible "1" for the crosshairs you desire to use.
+
+If your crosshair appears off-center, or doesn't look right, which is usually caused by different resolutions, then follow the following steps:
+1.) Change the numerical value next to "xpos" and type hud_reloadscheme in your console
+2.) Change the numerical value next to "ypos" and type hud_reloadscheme in your console
+3.) If those do not work, then change the numerical values next to "tall" and "wide" and type hud_reloadscheme.
+4.) If your crosshair still isn't pixel perfect, try another one and see if it works
+
+----------------------------------------------
+            VoidHUD2.0 Custom Files
+                    Installation
+----------------------------------------------
+
+Due to requests, I have added several different files in the 'resource\ui' directory, to install them, simply change their username to that of the actual file.  i.e. HudPlayerHealth_cross.res, would be renamed to HudPlayerHealth.res, and so on

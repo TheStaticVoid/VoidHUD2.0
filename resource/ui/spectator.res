@@ -106,7 +106,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
@@ -124,7 +123,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"center"
@@ -178,7 +176,6 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
 		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
