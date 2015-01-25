@@ -1,6 +1,14 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.1.4
+----------------------------------------------
+~ Actually fixed the deathcam not showing the weapon you were killed with
++ Added a DemoUI and Toggle Minmode button to the scoreboard
++ Added an avatar to the in-game voice chat
+
+
+----------------------------------------------
                 Version 2.1.3
 ----------------------------------------------
 + Added an alternate HudPlayerHealth.res, named HudPlayerHealth_cross.res, simply rename it to HudPlayerHealth to use

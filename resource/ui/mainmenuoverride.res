@@ -242,7 +242,7 @@
 		"ypos"			"80"
 		"zpos"			"-1"
 		"wide"			"136"
-		"tall"			"215"
+		"tall"			"240"
 		"visible"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
@@ -1184,7 +1184,143 @@
 			}		
 		}
 	}
+	
+	"DemoUIButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"DemoUIButton"
+		"xpos"			"30"
+		"ypos"			"290"
+		"zpos"			"11"
+		"wide"			"250"
+		"tall"			"36"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
 
+		"navUp"			"GeneralStoreButton"
+		"navDown"		"VRModeButton"
+		"navLeft"		"ReplayBrowserButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
+
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"125"
+			"tall"			"26"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"sans14"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuButtonDefault"
+			"border_armed"		"MainMenuButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}		
+		}
+	}
+
+	"ScoreboardSwitcher"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ScoreboardSwitcher"
+		"xpos"			"30"
+		"ypos"			"290"
+		"zpos"			"11"
+		"wide"			"250"
+		"tall"			"36"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+
+		"navUp"			"GeneralStoreButton"
+		"navDown"		"VRModeButton"
+		"navLeft"		"ReplayBrowserButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
+
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"125"
+			"tall"			"26"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"sans14"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuButtonDefault"
+			"border_armed"		"MainMenuButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}		
+		}
+	}
+	
 	"VRModeButton"
 	{
 		"ControlName"	"EditablePanel"

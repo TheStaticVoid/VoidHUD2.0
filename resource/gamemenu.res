@@ -89,6 +89,13 @@
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
+	"DemoUIButton"
+	{
+		"label" "DemoUI"
+		"command" "engine demoui"
+		"OnlyAtMenu" "1"
+		"subimage"	"glyph_practice"
+	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
@@ -115,5 +122,12 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
+	}
+	"ScoreboardSwitcher"
+	{
+		"label" "Toggle Minmode"
+		"command" "engine toggle cl_hud_minmode "
+		"OnlyInGame" "1"
+		"subimage"	"glyph_practice"
 	}
 }
