@@ -20,8 +20,11 @@ https://github.com/fblue/broeselhud_blue
 b4stian -- I used his hudanimations_tf file as reference as how to do mine, and they're still kinda broke, lol.
 http://www.teamfortress.tv/user/b4stian  
 
-raysfire -- Used his hud as reference on how to install closed captions
+raysfire -- Used his hud as reference on how to install closed captions also took his code for the loadout panels
 http://www.teamfortress.tv/user/rays
 
 Fog -- Used his custom crosshairs
 http://teamfortress.tv/thread/1261/fogs-custom-hud-crosshairs-version-2-0-released
+
+inferno -- Huge help with bug testing and other mumbo jumbo
+http://www.steamcommunity.com/id/infernoHD/

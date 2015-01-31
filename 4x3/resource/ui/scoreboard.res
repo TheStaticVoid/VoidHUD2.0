@@ -72,7 +72,7 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "MainBG"
-        "xpos"          "137"
+        "xpos"          "94"
         "ypos"          "240"
         "zpos"          "-1"
         "wide"          "575"
@@ -759,7 +759,7 @@
     {
         "ControlName"       "EditablePanel"
         "fieldName"     "LocalPlayerStatsPanel"
-        "xpos"          "-85"
+        "xpos"          "-80"
         "ypos"          "85"
         "zpos"          "3"
         "wide"          "f0"
@@ -1310,7 +1310,7 @@
             "labelText" "%dominations%"
             "textAlignment" "east"
             "textinsetx"    "20"
-            "xpos"      "c-306" [$WIN32]
+            "xpos"      "c-305" [$WIN32]
             "ypos"      "246"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
@@ -1358,7 +1358,7 @@
             "labelText" "%headshots%"
             "textAlignment" "east"
             "textinsetx"    "20"
-            "xpos"      "c-306" [$WIN32]
+            "xpos"      "c-305" [$WIN32]
             "ypos"      "257"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"

@@ -1,6 +1,14 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.1.5
+----------------------------------------------
+~ Improved the scoreboard numbers
++ Added support for 16x10 aspect ratio, see installation.txt for install instructions
++ Added support for 4x3 aspect ratio, see installation.txt for install instructions
++ Added advance loadout panel uses, change your team color & more control of the model
+
+----------------------------------------------
 				Version 2.1.4
 ----------------------------------------------
 ~ Actually fixed the deathcam not showing the weapon you were killed with

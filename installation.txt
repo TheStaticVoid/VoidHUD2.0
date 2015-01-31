@@ -12,6 +12,16 @@ C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\
 If you have installed Steam into another directory, please navigate to it and follow the above folder navigation.
 4.) Run TF2 and the HUD should be installed
 
+
+----------------------------------------------
+			4x3 and 16x10 Installation
+----------------------------------------------
+The current HUD is optimized to run at 16x9 resolutions, most specifically 1280x720 and 1920x1080.  Other resolutions will cause errors within the files, to edit this for your resolution, go to the voidHUD folder and follow these instructions:
+
+1.) Open your respected aspect ratio folder (4x3 or 16x10)
+2.) Copy and paste the resource and the scripts file into the voidHUD folder
+3.) Confirm the overwrite message that pops up
+4.) Run TF2, and the HUD should be working!
 ----------------------------------------------
             Fog's Custom Crosshair
                     Installation
