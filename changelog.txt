@@ -1,6 +1,16 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.1.6
+----------------------------------------------
+~ Adjusted the inset of the Adv. Options text in Main Menu
+~ Adjusted the color of the medic charge labels
++ Added version number in Main Menu
++ Added a better animation to the medic charge labels
++ Added the vaccinator resist icons
+
+
+----------------------------------------------
 				Version 2.1.5
 ----------------------------------------------
 ~ Improved the scoreboard numbers

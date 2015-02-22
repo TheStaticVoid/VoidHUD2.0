@@ -168,20 +168,32 @@
 		"enabled"		"1"
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
-	}	
-	
+	}		
+	"ResistIconAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ResistIconAnchor"
+		"xpos"	"147"
+		"ypos"	"55"
+		"wide"	"20"
+		"tall"	"20"
+		"visible"	"1"
+		"enabled"	"1"
+	}
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ResistIcon"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../HUD/defense_buff_bullet_blue"
-		"scaleImage"	"1"	
+		"fieldName"	"ResistIcon"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"20"
+		"tall"	"20"
+		"visible"	"1"
+		"enabled"	"1"
+		"image"	"../HUD/defense_buff_bullet_blue"
+		"scaleImage"	"1"
+		"pin_to_sibling" "ResistIconAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}
-	
 }

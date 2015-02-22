@@ -28,3 +28,6 @@ http://teamfortress.tv/thread/1261/fogs-custom-hud-crosshairs-version-2-0-releas
 
 inferno -- Huge help with bug testing and other mumbo jumbo
 http://www.steamcommunity.com/id/infernoHD/
+
+spice -- Find the vaccinator resist icon fix
+http://teamfortress.tv/user/spice

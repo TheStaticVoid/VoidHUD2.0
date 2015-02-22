@@ -1,5 +1,11 @@
 "GameMenu" [$WIN32]
 {
+	"Version"
+	{
+		"label" "voidHUD v2.1.6" 
+		"subimage" ""
+		"OnlyAtMenu" "0"
+	}
 	"ResumeGameButton"
 	{
 		"label"			"#MMenu_ResumeGame"
