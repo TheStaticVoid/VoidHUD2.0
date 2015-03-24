@@ -2,7 +2,7 @@
 {
 	"Version"
 	{
-		"label" "voidHUD v2.1.6" 
+		"label" "voidHUD v2.1.7" 
 		"subimage" ""
 		"OnlyAtMenu" "0"
 	}
@@ -101,6 +101,12 @@
 		"command" "engine demoui"
 		"OnlyAtMenu" "1"
 		"subimage"	"glyph_practice"
+	}
+	"ConsoleButton"
+	{
+		"label" "Open Console"
+		"command" "engine con_enable 1;toggleconsole"
+		"subimage" "glyph_multiplayer"
 	}
 
 	// These buttons are only shown while in-game
