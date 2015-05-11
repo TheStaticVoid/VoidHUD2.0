@@ -1056,11 +1056,11 @@
 	StatPanel
 	{
 		"fieldName"				"StatPanel"
-		"visible"				"1"
+		"visible"				""
 		"enabled"				"1"
-		"xpos"					"c-133"
+		"xpos"					"9999"
 		"xpos_lodef"			"c-190"
-		"ypos"				"270"
+		"ypos"				"9999"
 		"ypos_lodef"			"250"
 		"wide"					"266"
 		"wide_lodef"			"400"

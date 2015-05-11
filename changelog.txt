@@ -1,10 +1,18 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.1.8
+----------------------------------------------
+~ Adjusted the Killstreak Leader label in the winpanel so that it is centered
+- Removed the "You came close to your previous best" messages
+
+
+----------------------------------------------
 				Version 2.1.7
 ----------------------------------------------
 ~ Adjusted position of engineer metal count, so that it doesn't overlap the healing targetID
 + Added a console button to main menu -- per user request
+
 
 ----------------------------------------------
 				Version 2.1.6

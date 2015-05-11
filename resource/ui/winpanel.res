@@ -497,7 +497,7 @@
 		"fieldName"					"KillStreakLeaderLabel"
 		"font"						"sans8"
 		"fgcolor"					"255 255 255 255"
-		"xpos"						"37"
+		"xpos"						"55"
 		"ypos"						"133"
 		"zpos"						"3"
 		"wide"						"140"
