@@ -1,6 +1,12 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.1.9
+----------------------------------------------
++ Added higher quality item images in inventory & loadouts, credit to wiethoofd for the find
+
+
+----------------------------------------------
 				Version 2.1.8
 ----------------------------------------------
 ~ Adjusted the Killstreak Leader label in the winpanel so that it is centered
