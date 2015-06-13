@@ -209,8 +209,8 @@
 			"xpos"			"5"
 			"ypos"			"7"
 			"zpos"			"11"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_sentrygun_1"
@@ -224,22 +224,21 @@
 			"xpos"			"16"
 			"ypos"			"-2"
 			"zpos"			"12"
-			"wide"			"16"
-			"tall"			"8"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/eng_sel_item_movable"
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
-		}
-
+		}	
 		"MoveableKeyLabel"
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"TFFontMedium"
+			"font"			"sans12"
 			"xpos"			"0"
-			"ypos"			"22"
+			"ypos"			"11"
 			"zpos"			"1"
 			"wide"			"640"
 			"tall"			"24"
@@ -251,6 +250,7 @@
 			"textAlignment"		"North"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			"fgcolor_override" "voidHPwhite"
 		}	
 	}
 }

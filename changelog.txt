@@ -1,6 +1,19 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.0
+----------------------------------------------
+~ Changed the Advanced Options text in main menu so that it didn't get cut off in lower resolutions
+~ Fixed the scoreboard so it doesn't look broken in lower resolutions
+~ Fixed cart recede time being cut off
+~ Fixed Huntsman & Jarate Item meters not being even
+~ Fixed two briefcase icons showing up in doomsday
+~ Fixed engineer pickup icon remaining in the targetID while spectating
+~ Fixed briefcase location on spectated player
++ Added icon for melee powerup in Mannpower
++ Made HUD animations take longer in hopes of fixing the bug where health is red upon respawn
+
+----------------------------------------------
 				Version 2.1.9
 ----------------------------------------------
 + Added higher quality item images in inventory & loadouts, credit to wiethoofd for the find

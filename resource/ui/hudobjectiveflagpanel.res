@@ -411,7 +411,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r9999"
 		}
 		
 		"if_no_flags"
@@ -439,7 +439,7 @@
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r9999"
 		}
 	}
 	
@@ -447,11 +447,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpecCarriedImage"
-		"xpos"			"c-50"
-		"ypos"			"r137"	
+		"xpos"			"c-26"
+		"ypos"			"r50"	
 		"zpos"			"10"
-		"wide"			"50"
-		"tall"			"100"
+		"wide"			"56"
+		"tall"			"56"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"

@@ -206,10 +206,12 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+
+	Animate	PlayerStatusHealthValue2Spec 	FgColor		"voidHPbuff"			Accel 0.0 0.1
+	Animate	PlayerStatusHealthValue 	FgColor		"voidHPbuff"			Accel 0.0 0.1
+	Animate	PlayerStatusHealthValueTargetID 	FgColor		"voidHPbuff"			Accel 0.0 0.1
+	
 	RunEvent HudHealthBonusPulseLoop	0.4
-	Animate	PlayerStatusHealthValue2Spec 	FgColor		"voidHPbuff"			Accel 0.0 0.0
-	Animate	PlayerStatusHealthValue 	FgColor		"voidHPbuff"			Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTargetID 	FgColor		"voidHPbuff"			Accel 0.0 0.0
 }
 
 // call to loop HudHealthBonusPulse
@@ -220,11 +222,11 @@ event HudHealthBonusPulseLoop
 
 event HudHealthBonusPulseStop
 {
+	Animate	PlayerStatusHealthValue2Spec 	FgColor		"voidHPwhite"			Accel 0.0 0.1
+	Animate	PlayerStatusHealthValue  	FgColor		"voidHPwhite"			Accel 0.0 0.1
+	Animate	PlayerStatusHealthValueTargetID 	FgColor		"voidHPwhite"			Accel 0.0 0.1
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate	PlayerStatusHealthValue2Spec 	FgColor		"voidHPwhite"			Accel 0.0 0.0
-	Animate	PlayerStatusHealthValue  	FgColor		"voidHPwhite"			Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTargetID 	FgColor		"voidHPwhite"			Accel 0.0 0.0
 }
 
 //===========================================
@@ -234,9 +236,9 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	Animate	PlayerStatusHealthValue2ShadowSpec 	FgColor		"voidHPlow"			Accel 0.0 0.0
-	Animate	PlayerStatusHealthValue2 	FgColor		"voidHPlow"			Accel 0.0 0.0
-    Animate	PlayerStatusHealthValueTargetID 	FgColor		"voidHPlow"			Accel 0.0 0.0   
+	Animate	PlayerStatusHealthValue2ShadowSpec 	FgColor		"voidHPlow"			Accel 0.0 0.1
+	Animate	PlayerStatusHealthValue2 	FgColor		"voidHPlow"			Accel 0.0 0.1
+    Animate	PlayerStatusHealthValueTargetID 	FgColor		"voidHPlow"			Accel 0.0 0.1
     
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -249,11 +251,12 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
+	Animate	PlayerStatusHealthValue2ShadowSpec 	FgColor		"voidHPgray"			Accel 0.0 0.1
+	Animate	PlayerStatusHealthValue2 	FgColor		"voidHPgray"			Accel 0.0 0.1
+    Animate	PlayerStatusHealthValueTargetID 	FgColor		"voidHPwhite"			Accel 0.0 0.1
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate	PlayerStatusHealthValue2ShadowSpec 	FgColor		"voidHPgray"			Accel 0.0 0.0
-	Animate	PlayerStatusHealthValue2 	FgColor		"voidHPgray"			Accel 0.0 0.0
-    Animate	PlayerStatusHealthValueTargetID 	FgColor		"voidHPwhite"			Accel 0.0 0.0
+
 }
 
 //===========================================
@@ -262,9 +265,9 @@ event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
-	Animate AmmoInClipShadow FgColor "voidHPlow" Accel 0.0 0.0
-	Animate AmmoInReserve FgColor "voidHPlow" Accel 0.0 0.0
-	Animate AmmoNoClip FgColor "voidHPlow" Accel 0.0 0.0
+	Animate AmmoInClipShadow FgColor "voidHPlow" Accel 0.0 0.1
+	Animate AmmoInReserve FgColor "voidHPlow" Accel 0.0 0.1
+	Animate AmmoNoClip FgColor "voidHPlow" Accel 0.0 0.1
     RunEvent HudLowAmmoPulseLoop	0.25
 }
 
@@ -276,11 +279,11 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
+	Animate AmmoInClipShadow FgColor "voidHPgray" Accel 0.0 0.1
+    Animate AmmoInReserve FgColor "voidHPwhite" Accel 0.0 0.1
+    Animate AmmoNoClip FgColor "voidHPwhite" Accel 0.0 0.1
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
-	Animate AmmoInClipShadow FgColor "voidHPgray" Accel 0.0 0.0
-    Animate AmmoInReserve FgColor "voidHPwhite" Accel 0.0 0.0
-    Animate AmmoNoClip FgColor "voidHPwhite" Accel 0.0 0.0
 }
 
 //===========================================
@@ -456,25 +459,7 @@ event ArenaVsPanelSlideOut
 
 //===========================================
 
-//Cart Alarm Pulse
-event HudCartAlarmPulse
-{
-	Animate	EscortItemImageAlert 	Alpha		"160"		Linear 0.0 0.3
-	Animate	EscortItemImageAlert 	Alpha		"0"		Linear 0.6 0.3
-	
-	RunEvent HudCartAlarmPulseLoop	1.2
-}
-
-event HudCartAlarmPulseLoop
-{
-	RunEvent HudCartAlarmPulse 0.0
-}
-
-event HudCartAlarmPulseStop
-{
-	StopEvent HudCartAlarmPulse 0.0
-	StopEvent HudCartAlarmPulseLoop 0.0
-}
+original payload animations
 
 //===========================================
 

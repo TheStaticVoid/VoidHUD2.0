@@ -8,7 +8,7 @@
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"101"
+		"wide"			"100"
 		"tall"			"5"				
 		"autoResize"	"1"
 		"pinCorner"		"1"

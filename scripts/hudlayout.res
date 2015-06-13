@@ -44,11 +44,11 @@
         {
             "controlName" "CExLabel"
             "fieldName" "xHairCross"
-            "visible" "0"
+            "visible" "1"
             "enabled" "1"
             "zpos" "2"
     
-            "xpos" "c-102"
+            "xpos" "c-103"
             "ypos" "c-98"
             "wide" "202"
             "tall" "198"
@@ -57,7 +57,7 @@
             "labelText" "2"
             "textAlignment" "center"
         
-            "fgcolor" "255 255 255 192"
+            "fgcolor" "255 255 255 150"
         }
        xHairDot
         {
@@ -458,7 +458,6 @@
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
-		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"

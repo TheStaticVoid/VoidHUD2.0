@@ -7,7 +7,7 @@
         "xpos"          "c-320"
         "ypos"          "0"
         "wide"          "f0"
-        "tall"          "650"
+        "tall"          "675"
         "autoResize"        "1"
         "pinCorner"     "0"
         "visible"       "1"
@@ -76,7 +76,7 @@
         "ypos"          "240"
         "zpos"          "-1"
         "wide"          "575"
-        "tall"          "180"
+        "tall"          "185"
         "visible"       "1"
         "enabled"       "1"
         "fillcolor"     "25 25 25 140"
@@ -402,7 +402,7 @@
         "ypos"          "c0"
         "zpos"          "20"
         "wide"          "293"
-        "tall"          "180"   [$WIN32]
+        "tall"          "185"   [$WIN32]
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
@@ -429,7 +429,7 @@
         "ypos"          "c0"
         "zpos"          "20"
         "wide"          "289"
-        "tall"          "180"   [$WIN32]
+        "tall"          "185"   [$WIN32]
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
@@ -462,7 +462,7 @@
         "labelText"     "%spectators%"
         "textAlignment"     "west"
         "xpos"          "c-265"
-        "ypos"          "r64"   [$WIN32]
+        "ypos"          "r60"   [$WIN32]
         "zpos"          "4"
         "wide"          "320"
         "tall"          "20"
@@ -509,7 +509,7 @@
         "ypos"          "214"   [$WIN32]
         "zpos"          "2"
         "wide"          "100"
-        "tall"          "206"
+        "tall"          "211"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1" 
