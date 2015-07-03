@@ -2064,7 +2064,7 @@
 			"use_proportional_insets" "1"
 			"font"			"sans12"
 			"textAlignment"	"center"
-			"labelText"		"voidHUD v2.2.0"
+			"labelText"		"voidHUD v2.2.1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
