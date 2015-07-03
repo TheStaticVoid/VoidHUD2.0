@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"7"
-		"ypos"			"7"
+		"xpos"			"6"
+		"ypos"			"6"
 		"zpos"			"4"
 		"wide"			"0"
 		"tall"			"0"
@@ -17,8 +17,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"5"
-		"ypos"			"5"
+		"xpos"			"4"
+		"ypos"			"4"
 		"zpos"			"3"
 		"wide"			"0"
 		"tall"			"0"
@@ -45,11 +45,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"5"
-		"ypos"			"5"
+		"xpos"			"4"
+		"ypos"			"4"
 		"zpos"			"3"
-		"wide"			"22"
-		"tall"			"22"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -70,7 +70,7 @@
 	}		
      "PlayerStatusHealthValue2Spec" 
     {  
-        "ControlName" "Label" 
+        "ControlName" "CExLabel" 
         "fieldName"  "PlayerStatusHealthValue2Spec" 
         "xpos"   "-4" 
         "ypos"   "5" 
@@ -99,5 +99,20 @@
         "textAlignment" "center" 
         "font"   "sans18" 
         "fgcolor_override" "voidHPgray"
-    }      
+    }     
+	"PlayerStatusPlayerLevel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusPlayerLevel"
+		"xpos"			"8"
+		"ypos"			"9"
+		"zpos"			"5"
+		"wide"			"16"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"font"			"ScoreboardVerySmall"
+		"fgcolor"		"TFOrange"
+	}	
 }

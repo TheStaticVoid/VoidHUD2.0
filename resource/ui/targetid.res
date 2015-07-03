@@ -253,4 +253,19 @@
 			"fgcolor_override" "voidHPwhite"
 		}	
 	}
+	"AvatarImage"
+	{
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"		"AvatarImage"
+		"xpos"			"8"
+		"ypos"			"19"	[$WIN32]
+		"zpos"			"99"
+		"wide"			"11"
+		"tall"			"11"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}
 }

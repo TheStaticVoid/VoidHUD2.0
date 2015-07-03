@@ -54,6 +54,24 @@
 					"textAlignment"		"center"
 					"font"				"PlayerPanelPlayerName"
 				}
+				
+				if_competitive
+				{
+					"xpos"				"4"
+					"ypos"				"25"
+					"wide"				"48"
+					"textAlignment"		"center"
+					"font"				"PlayerPanelPlayerName"
+				}
+
+				if_readymode
+				{
+					"xpos"				"4"
+					"ypos"				"25"
+					"wide"				"48"
+					"textAlignment"		"center"
+					"font"				"PlayerPanelPlayerName"
+				}
 			}
 			
 			"classimage"
@@ -78,8 +96,28 @@
 					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
 				}
+				
+				if_competitive
+				{
+					"xpos"			"5"
+					"ypos"			"4"
+					"wide"			"20"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
+				}
+
+				if_readymode
+				{
+					"xpos"			"5"
+					"ypos"			"4"
+					"wide"			"20"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
+				}
 			}
-			
+		
+				
+
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
@@ -95,6 +133,16 @@
 				"PaintBackgroundType"	"0"
 				
 				if_mvm
+				{
+					"visible"		"1"
+				}
+				
+				if_competitive
+				{
+					"visible"		"1"
+				}
+
+				if_readymode
 				{
 					"visible"		"1"
 				}
@@ -143,6 +191,16 @@
 				{
 					"visible"		"1"
 				}	
+				
+				if_competitive
+				{
+					"visible"		"1"
+				}
+				
+				if_readymode
+				{
+					"visible"		"1"
+				}
 			}
 			
 			"ReadyImage"
@@ -162,6 +220,15 @@
 				"scaleImage"		"1"
 
 				if_mvm
+				{
+					"visible"		"1"
+				}
+				if_competitive
+				{
+					"visible"		"1"
+				}
+
+				if_readymode
 				{
 					"visible"		"1"
 				}
@@ -243,6 +310,31 @@
 			"team1_player_base_y"			"66"
 			"team2_player_delta_x"			"52"
 		}		
+		if_competitive
+		{
+			"xpos"							"c-320"
+			"ypos"							"0"
+			"wide"							"640"
+			"tall"							"480"
+
+			"team1_player_base_y"			"66"
+			"team2_player_base_y"			"66"
+			"team2_player_delta_x"			"52"
+			"team2_player_base_offset_x"	"5"
+		}
+		
+		if_readymode
+		{
+			"xpos"							"c-320"
+			"ypos"							"0"
+			"wide"							"640"
+			"tall"							"480"
+
+			"team1_player_base_y"			"66"
+			"team2_player_base_y"			"66"
+			"team2_player_delta_x"			"52"
+			"team2_player_base_offset_x"	"5"
+		}
 	}
 
 	"HudTournamentBG"
@@ -269,6 +361,19 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}
+		
+		if_competitive
+		{
+			"xpos"			"195"
+			"ypos"			"5"
+			"visible"		"1"
+		}
+		
+		if_readymode
+		{
+			"xpos"			"195"
+			"visible"		"1"
 		}	
 	}
 	"TournamentLabel"
@@ -291,6 +396,17 @@
 		
 		if_mvm
 		{
+			"visible"		"0"
+		}
+		if_competitive
+		{
+			"xpos"			"200"
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"xpos"			"200"
 			"visible"		"0"
 		}
 	}
@@ -320,6 +436,17 @@
 		{
 			"visible"		"0"
 		}
+		if_competitive
+		{
+			"xpos"			"200"
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"xpos"			"200"
+			"visible"		"0"
+		}
 	}
 	"TournamentBLUELabel"
 	{	
@@ -343,6 +470,17 @@
 		{
 			"visible"		"0"
 		}
+		if_competitive
+		{
+			"xpos"			"207"
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"xpos"			"207"
+			"visible"		"0"
+		}
 	}
 	"TournamentBLUEStateLabel"
 	{	
@@ -364,6 +502,17 @@
 		
 		if_mvm
 		{
+			"visible"		"0"
+		}
+		if_competitive
+		{
+			"xpos"			"251"
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"xpos"			"251"
 			"visible"		"0"
 		}
 	}
@@ -393,6 +542,17 @@
 		{
 			"visible"		"0"
 		}
+		if_competitive
+		{
+			"xpos"			"320"
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"xpos"			"320"
+			"visible"		"0"
+		}
 	}
 	"TournamentREDLabel"
 	{	
@@ -414,6 +574,17 @@
 		
 		if_mvm
 		{
+			"visible"		"0"
+		}
+		if_competitive
+		{
+			"xpos"			"370"
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"xpos"			"370"
 			"visible"		"0"
 		}
 	}
@@ -439,6 +610,17 @@
 		{
 			"visible"		"0"
 		}
+		if_competitive
+		{
+			"xpos"			"325"
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"xpos"			"325"
+			"visible"		"0"
+		}
 	}
 	"TournamentConditionLabel"
 	{	
@@ -462,6 +644,21 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}
+		if_competitive
+		{
+			"xpos"			"285"
+			"ypos"			"26"
+			"visible"		"1"
+			"font"			"TFFontMedium"
+		}
+
+		if_readymode
+		{
+			"xpos"			"285"
+			"ypos"			"26"
+			"visible"		"1"
+			"font"			"TFFontMedium"
 		}
 	}
 
@@ -491,6 +688,15 @@
 		{
 			"visible"		"0"
 		}
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"visible"		"0"
+		}
 	}
 	"TournamentInstructionsLabel"
 	{	
@@ -515,6 +721,25 @@
 			"font"			"HudFontSmallishBold"
 			"xpos"			"155"
 			"ypos"			"105"
+			"wide"			"190"
+			"tall"			"12"
+			"zpos"			"3"
+		}
+		if_competitive
+		{
+			"font"			"HudFontSmallishBold"
+			"xpos"			"225"
+			"ypos"			"110"
+			"wide"			"190"
+			"tall"			"12"
+			"zpos"			"3"
+		}
+
+		if_readymode
+		{
+			"font"			"HudFontSmallishBold"
+			"xpos"			"225"
+			"ypos"			"110"
 			"wide"			"190"
 			"tall"			"12"
 			"zpos"			"3"
@@ -549,6 +774,27 @@
 			"visible"		"1"
 			"fgcolor"		"Black"
 		}
+		if_competitive
+		{
+			"font"			"HudFontSmallishBold"
+			"xpos"			"226"
+			"ypos"			"111"
+			"wide"			"190"
+			"tall"			"12"
+			"visible"		"1"
+			"fgcolor"		"Black"
+		}
+
+		if_readymode
+		{
+			"font"			"HudFontSmallishBold"
+			"xpos"			"226"
+			"ypos"			"111"
+			"wide"			"190"
+			"tall"			"12"
+			"visible"		"1"
+			"fgcolor"		"Black"
+		}
 	}
 	
 	"CountdownBG"
@@ -571,6 +817,17 @@
 		
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
+		if_competitive
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
 	}
 
 	"CountdownLabel"
@@ -590,6 +847,18 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
+		
+		if_competitive
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
 	}
 	
 	"CountdownLabelShadow"
@@ -610,5 +879,17 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"fgcolor"		"Black"
+
+		if_competitive
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
 	}
 }

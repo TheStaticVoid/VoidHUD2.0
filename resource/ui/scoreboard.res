@@ -13,13 +13,17 @@
         "visible"       "1"
         "enabled"       "1"
         "tabPosition"       "0"
+		"medal_width"		"15"
         "avatar_width"      "57"    [$WIN32]
-        "name_width"        "127"    [$WIN32]
+        "name_width"        "118"    [$WIN32]
+		"name_width_short" "85"
         "status_width"      "15"    [$WIN32]
         "nemesis_width"     "15"    [$WIN32]
         "class_width"       "15"    [$WIN32]
         "score_width"       "20"
         "ping_width"        "20"    [$WIN32]
+		"stats_width"			"30"
+		"killstreak_width"		"20"
     }
     "BlueScoreBG"
     {

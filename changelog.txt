@@ -1,6 +1,12 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.1
+----------------------------------------------
++ Added support for the Gunmetal update
++ Moved Engineer metal to under his ammo
+
+----------------------------------------------
 				Version 2.2.0
 ----------------------------------------------
 ~ Changed the Advanced Options text in main menu so that it didn't get cut off in lower resolutions

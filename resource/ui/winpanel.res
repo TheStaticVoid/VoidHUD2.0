@@ -283,6 +283,21 @@
 		"enabled"					"0"
 	}
 	
+	"Player1Medal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Player1Medal"
+		"xpos"			"65"
+		"ypos"			"104"
+		"zpos"			"3"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
+	}
+
 	"Player1Avatar"
 	{
 		"ControlName"				"CAvatarImagePanel"
@@ -298,10 +313,10 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"Player1Name"
 		"font"						"sans10"
-		"xpos"						"65"
+		"xpos"						"80"
 		"ypos"						"100"
 		"zpos"						"3"
-		"wide"						"100"
+		"wide"						"90"
 		"tall"						"20"
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -351,6 +366,21 @@
 		"brighttext"				"0"
 	}
 	
+	"Player2Medal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Player2Medal"
+		"xpos"			"65"
+		"ypos"			"115"
+		"zpos"			"3"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
+	}
+
 	"Player2Avatar"
 	{
 		"ControlName"				"CAvatarImagePanel"
@@ -366,10 +396,10 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"Player2Name"
 		"font"						"sans10"
-		"xpos"						"65"
+		"xpos"						"80"
 		"ypos"						"111"
 		"zpos"						"3"
-		"wide"						"100"
+		"wide"						"90"
 		"tall"						"20"
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -421,6 +451,21 @@
 		"brighttext"				"0"
 	}
 	
+	"Player3Medal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Player3Medal"
+		"xpos"			"65"
+		"ypos"			"126"
+		"zpos"			"3"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
+	}
+
 	"Player3Avatar"
 	{
 		"ControlName"				"CAvatarImagePanel"
@@ -436,10 +481,10 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"Player3Name"
 		"font"						"sans10"
-		"xpos"						"65"
+		"xpos"						"80"
 		"ypos"						"122"
 		"zpos"						"3"
-		"wide"						"100"
+		"wide"						"90"
 		"tall"						"20"
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -532,6 +577,21 @@
 		"enabled"					"0"
 	}
 	
+	"KillStreakPlayer1Medal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"KillStreakPlayer1Medal"
+		"xpos"			"65"
+		"ypos"			"147"
+		"zpos"			"3"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
+	}
+
 	"KillStreakPlayer1Avatar"
 	{
 		"ControlName"				"CAvatarImagePanel"
@@ -547,10 +607,10 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"KillStreakPlayer1Name"
 		"font"						"sans10"
-		"xpos"						"65"
+		"xpos"						"80"
 		"ypos"						"143"
 		"zpos"						"3"
-		"wide"						"100"
+		"wide"						"90"
 		"tall"						"20"
 		"autoResize"				"0"
 		"pinCorner"					"0"
