@@ -257,11 +257,11 @@
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
-		"xpos"			"8"
-		"ypos"			"19"	[$WIN32]
+		"xpos"			"0"
+		"ypos"			"11"	[$WIN32]
 		"zpos"			"99"
-		"wide"			"11"
-		"tall"			"11"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			""

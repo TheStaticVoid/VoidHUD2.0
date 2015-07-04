@@ -291,26 +291,6 @@
 		}
 	}
 	
-	"PassiveAttribsLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PassiveAttribsLabel"
-		"font"			"ItemFontAttribLarge"
-		"xpos"			"c-135"
-		"ypos"			"120"
-		"zpos"			"0"	
-		"wide"			"270"
-		"tall"			"240"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"	"south"
-		"fgcolor"		"255 215 0 255"
-		"centerwrap"	"1"
-	}
-	
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"

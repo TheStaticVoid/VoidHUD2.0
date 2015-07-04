@@ -1,10 +1,20 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.2
+----------------------------------------------
+~ Fixed some issues in spectatortournament -- still buggy
+~ Fixed avatar in targetid being off
+~ Fixed inspectionpanel being broken
+- Removed PassiveAttributesLabel from loadout screen
+
+
+----------------------------------------------
 				Version 2.2.1
 ----------------------------------------------
 + Added support for the Gunmetal update
 + Moved Engineer metal to under his ammo
+
 
 ----------------------------------------------
 				Version 2.2.0
@@ -18,6 +28,7 @@ voidHUD Changelog
 ~ Fixed briefcase location on spectated player
 + Added icon for melee powerup in Mannpower
 + Made HUD animations take longer in hopes of fixing the bug where health is red upon respawn
+
 
 ----------------------------------------------
 				Version 2.1.9
