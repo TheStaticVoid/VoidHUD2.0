@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.3
+----------------------------------------------
+~ Reverted the engineer's metal count back to the center
++ Added Gun Mettle title screen content
+
+
+----------------------------------------------
 				Version 2.2.2
 ----------------------------------------------
 ~ Fixed some issues in spectatortournament -- still buggy
@@ -15,7 +22,6 @@ voidHUD Changelog
 + Added support for the Gunmetal update
 + Moved Engineer metal to under his ammo
 
-
 ----------------------------------------------
 				Version 2.2.0
 ----------------------------------------------
@@ -28,7 +34,6 @@ voidHUD Changelog
 ~ Fixed briefcase location on spectated player
 + Added icon for melee powerup in Mannpower
 + Made HUD animations take longer in hopes of fixing the bug where health is red upon respawn
-
 
 ----------------------------------------------
 				Version 2.1.9
