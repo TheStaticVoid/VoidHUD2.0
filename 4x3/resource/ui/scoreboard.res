@@ -7,19 +7,23 @@
         "xpos"          "c-320"
         "ypos"          "0"
         "wide"          "f0"
-        "tall"          "650"
+        "tall"          "675"
         "autoResize"        "1"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
         "tabPosition"       "0"
+		"medal_width"		"15"
         "avatar_width"      "57"    [$WIN32]
-        "name_width"        "127"    [$WIN32]
+        "name_width"        "118"    [$WIN32]
+		"name_width_short" "85"
         "status_width"      "15"    [$WIN32]
         "nemesis_width"     "15"    [$WIN32]
         "class_width"       "15"    [$WIN32]
         "score_width"       "20"
         "ping_width"        "20"    [$WIN32]
+		"stats_width"			"30"
+		"killstreak_width"		"20"
     }
     "BlueScoreBG"
     {
@@ -72,11 +76,11 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "MainBG"
-        "xpos"          "94"
+        "xpos"          "30"
         "ypos"          "240"
         "zpos"          "-1"
         "wide"          "575"
-        "tall"          "180"
+        "tall"          "185"
         "visible"       "1"
         "enabled"       "1"
         "fillcolor"     "25 25 25 140"
@@ -402,7 +406,7 @@
         "ypos"          "c0"
         "zpos"          "20"
         "wide"          "293"
-        "tall"          "180"   [$WIN32]
+        "tall"          "185"   [$WIN32]
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
@@ -429,7 +433,7 @@
         "ypos"          "c0"
         "zpos"          "20"
         "wide"          "289"
-        "tall"          "180"   [$WIN32]
+        "tall"          "185"   [$WIN32]
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
@@ -462,7 +466,7 @@
         "labelText"     "%spectators%"
         "textAlignment"     "west"
         "xpos"          "c-265"
-        "ypos"          "r64"   [$WIN32]
+        "ypos"          "r60"   [$WIN32]
         "zpos"          "4"
         "wide"          "320"
         "tall"          "20"
@@ -505,11 +509,11 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "LocalBG"
-        "xpos"          "c-400"
-        "ypos"          "214"   [$WIN32]
+        "xpos"          "105"
+        "ypos"          "r50"   [$WIN32]
         "zpos"          "2"
-        "wide"          "100"
-        "tall"          "206"
+        "wide"          "400"
+        "tall"          "135"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1" 
@@ -759,8 +763,8 @@
     {
         "ControlName"       "EditablePanel"
         "fieldName"     "LocalPlayerStatsPanel"
-        "xpos"          "-80"
-        "ypos"          "85"
+        "xpos"          "100"
+        "ypos"          "r180"
         "zpos"          "3"
         "wide"          "f0"
         "tall"          "480"
@@ -772,28 +776,7 @@
         if_mvm
         {
             "visible"       "1"
-        }
-        
-        
-        "KillsLabel"
-        {
-            "ControlName"   "CExLabel"
-            "fieldName" "KillsLabel"
-            "font"      "sans48"
-            "fgcolor"   "voidHPwhite"
-            "labelText" ":"
-            "textAlignment" "center"
-            "textinsetx"    "10"
-            "xpos"      "c-693"
-            "ypos"      "r357"  [$WIN32]
-            "zpos"      "3"
-            "wide"      "f0"
-            "tall"      "50"
-            "autoResize"    "0"
-            "pinCorner" "0"
-            "visible"   "0"
-            "enabled"   "0"
-        }                                           
+        }                                        
         
         "KillLabel"
         {           
@@ -804,7 +787,7 @@
             "labelText" "Kills"
             "textAlignment" "center"
             "textinsetx"    "20"
-            "xpos"      "c-336"
+            "xpos"      "c-175"
             "ypos"      "154"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
@@ -828,7 +811,7 @@
             "labelText" "Deaths"
             "textAlignment" "west"
             "textinsetx"    "20"
-            "xpos"      "c-267"
+            "xpos"      "c-110"
             "ypos"      "154"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
@@ -852,7 +835,7 @@
             "labelText" "%kills%"
             "textAlignment" "center"
             "textinsetx"    "10"
-            "xpos"      "c-325"
+            "xpos"      "c-165"
             "ypos"      "r355"  [$WIN32]
             "zpos"      "3"
             "wide"      "70"
@@ -876,7 +859,7 @@
             "labelText" "%deaths%"
             "textAlignment" "center"
             "textinsetx"    "10"
-            "xpos"      "c-278"
+            "xpos"      "c-120"
             "ypos"      "r355"  [$WIN32]
             "zpos"      "3"
             "wide"      "70"
@@ -1094,8 +1077,8 @@
 			"textAlignment"	"west"
             "fgcolor" "voidHPwhite"
             "textinsetx"    "20"
-            "xpos"      "c-311" [$WIN32]
-            "ypos"      "312"   [$WIN32]
+            "xpos"      "c-211" [$WIN32]
+            "ypos"      "235"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
             "tall"      "25"
@@ -1118,8 +1101,8 @@
             "fgcolor" "voidHPwhite"
             "textAlignment" "east"  [$WIN32]
             "textinsetx"    "10"
-            "xpos"      "c-311" [$WIN32]
-            "ypos"      "312"   [$WIN32]
+            "xpos"      "c-211" [$WIN32]
+            "ypos"      "235"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
             "tall"      "25"
@@ -1310,7 +1293,7 @@
             "labelText" "%dominations%"
             "textAlignment" "east"
             "textinsetx"    "20"
-            "xpos"      "c-305" [$WIN32]
+            "xpos"      "c-306" [$WIN32]
             "ypos"      "246"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
@@ -1334,8 +1317,8 @@
             "labelText" "#TF_ScoreBoard_HeadshotsLabel"
             "textAlignment" "west"
             "textinsetx"    "10"
-            "xpos"      "c-306" [$WIN32]
-            "ypos"      "257"   [$WIN32]
+            "xpos"      "c-206" [$WIN32]
+            "ypos"      "180"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"    [$WIN32]
             "tall"      "25"
@@ -1358,8 +1341,8 @@
             "labelText" "%headshots%"
             "textAlignment" "east"
             "textinsetx"    "20"
-            "xpos"      "c-305" [$WIN32]
-            "ypos"      "257"   [$WIN32]
+            "xpos"      "c-206" [$WIN32]
+            "ypos"      "180"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
             "tall"      "25"
@@ -1382,8 +1365,8 @@
             "labelText" "#TF_ScoreBoard_HealingLabel"
             "textAlignment" "west"
             "textinsetx"    "10"
-            "xpos"      "c-306" [$WIN32]
-            "ypos"      "268"   [$WIN32]
+            "xpos"      "c-206" [$WIN32]
+            "ypos"      "191"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"    [$WIN32]
             "tall"      "25"
@@ -1406,8 +1389,8 @@
             "labelText" "%healing%"
             "textAlignment" "east"
             "textinsetx"    "20"
-            "xpos"      "c-306" [$WIN32]
-            "ypos"      "268"   [$WIN32]
+            "xpos"      "c-206" [$WIN32]
+            "ypos"      "191"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
             "tall"      "25"
@@ -1430,8 +1413,8 @@
             "labelText" "#TF_ScoreBoard_InvulnLabel"
             "textAlignment" "west"
             "textinsetx"    "10"
-            "xpos"      "c-306" [$WIN32]
-            "ypos"      "279"   [$WIN32]
+            "xpos"      "c-206" [$WIN32]
+            "ypos"      "202"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
             "tall"      "25"
@@ -1454,8 +1437,8 @@
             "labelText" "%invulns%"
             "textAlignment" "east"
             "textinsetx"    "20"
-            "xpos"      "c-306" [$WIN32]
-            "ypos"      "279"   [$WIN32]
+            "xpos"      "c-206" [$WIN32]
+            "ypos"      "202"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
             "tall"      "25"
@@ -1478,8 +1461,8 @@
             "labelText" "#TF_ScoreBoard_RevengeLabel"
             "textAlignment" "west"
             "textinsetx"    "10"
-            "xpos"      "c-306" [$WIN32]
-            "ypos"      "290"   [$WIN32]
+            "xpos"      "c-206" [$WIN32]
+            "ypos"      "213"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
             "tall"      "25"
@@ -1502,8 +1485,8 @@
             "labelText" "%Revenge%"
             "textAlignment" "east"
             "textinsetx"    "20"
-            "xpos"      "c-306" [$WIN32]
-            "ypos"      "290"   [$WIN32]
+            "xpos"      "c-206" [$WIN32]
+            "ypos"      "213"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
             "tall"      "25"
@@ -1526,8 +1509,8 @@
             "labelText" "#TF_ScoreBoard_TeleportsLabel"
             "textAlignment" "west"
             "textinsetx"    "10"
-            "xpos"      "c-306" [$WIN32]
-            "ypos"      "301"   [$WIN32]
+            "xpos"      "c-206" [$WIN32]
+            "ypos"      "224"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"    [$WIN32]
             "tall"      "25"
@@ -1552,8 +1535,8 @@
             "labelText" "%teleports%"
             "textAlignment" "east"
             "textinsetx"    "20"
-            "xpos"      "c-306" [$WIN32]
-            "ypos"      "301"   [$WIN32]
+            "xpos"      "c-206" [$WIN32]
+            "ypos"      "224"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
             "tall"      "25"

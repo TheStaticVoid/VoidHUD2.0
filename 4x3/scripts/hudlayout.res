@@ -48,7 +48,7 @@
             "enabled" "1"
             "zpos" "2"
     
-            "xpos" "c-102"
+            "xpos" "c-103"
             "ypos" "c-98"
             "wide" "202"
             "tall" "198"
@@ -57,7 +57,7 @@
             "labelText" "2"
             "textAlignment" "center"
         
-            "fgcolor" "255 255 255 192"
+            "fgcolor" "255 255 255 150"
         }
        xHairDot
         {
@@ -458,7 +458,6 @@
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
-		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"
@@ -1418,11 +1417,11 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r270"
-		"ypos"					"300"
+		"xpos"					"r200"
+		"ypos"					"rs1"
 		"zpos"					"10"
-		"wide"					"270"
-		"tall"					"180"
+		"wide"					"190"
+		"tall"					"f0"
 	}
 	
 	HudTFCrosshair
@@ -1562,6 +1561,17 @@
 		"PaintBackgroundType"	"0"
 	}
 
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
 
 	HudMiniGame
 	{
@@ -1572,5 +1582,28 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
+	}
+	
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	"QuestLogContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
 	}
 }

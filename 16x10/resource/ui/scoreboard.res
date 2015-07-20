@@ -7,19 +7,23 @@
         "xpos"          "c-320"
         "ypos"          "0"
         "wide"          "f0"
-        "tall"          "650"
+        "tall"          "675"
         "autoResize"        "1"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
         "tabPosition"       "0"
+		"medal_width"		"15"
         "avatar_width"      "57"    [$WIN32]
-        "name_width"        "127"    [$WIN32]
+        "name_width"        "118"    [$WIN32]
+		"name_width_short" "85"
         "status_width"      "15"    [$WIN32]
         "nemesis_width"     "15"    [$WIN32]
         "class_width"       "15"    [$WIN32]
         "score_width"       "20"
         "ping_width"        "20"    [$WIN32]
+		"stats_width"			"30"
+		"killstreak_width"		"20"
     }
     "BlueScoreBG"
     {
@@ -76,7 +80,7 @@
         "ypos"          "240"
         "zpos"          "-1"
         "wide"          "575"
-        "tall"          "180"
+        "tall"          "185"
         "visible"       "1"
         "enabled"       "1"
         "fillcolor"     "25 25 25 140"
@@ -402,7 +406,7 @@
         "ypos"          "c0"
         "zpos"          "20"
         "wide"          "293"
-        "tall"          "180"   [$WIN32]
+        "tall"          "185"   [$WIN32]
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
@@ -429,7 +433,7 @@
         "ypos"          "c0"
         "zpos"          "20"
         "wide"          "289"
-        "tall"          "180"   [$WIN32]
+        "tall"          "185"   [$WIN32]
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
@@ -462,7 +466,7 @@
         "labelText"     "%spectators%"
         "textAlignment"     "west"
         "xpos"          "c-265"
-        "ypos"          "r64"   [$WIN32]
+        "ypos"          "r60"   [$WIN32]
         "zpos"          "4"
         "wide"          "320"
         "tall"          "20"
@@ -505,11 +509,11 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "LocalBG"
-        "xpos"          "c-400"
+        "xpos"          "c-390"
         "ypos"          "214"   [$WIN32]
         "zpos"          "2"
         "wide"          "100"
-        "tall"          "206"
+        "tall"          "211"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1" 
@@ -759,7 +763,7 @@
     {
         "ControlName"       "EditablePanel"
         "fieldName"     "LocalPlayerStatsPanel"
-        "xpos"          "-80"
+        "xpos"          "-75"
         "ypos"          "85"
         "zpos"          "3"
         "wide"          "f0"
@@ -1310,7 +1314,7 @@
             "labelText" "%dominations%"
             "textAlignment" "east"
             "textinsetx"    "20"
-            "xpos"      "c-305" [$WIN32]
+            "xpos"      "c-306" [$WIN32]
             "ypos"      "246"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
@@ -1358,7 +1362,7 @@
             "labelText" "%headshots%"
             "textAlignment" "east"
             "textinsetx"    "20"
-            "xpos"      "c-305" [$WIN32]
+            "xpos"      "c-306" [$WIN32]
             "ypos"      "257"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"

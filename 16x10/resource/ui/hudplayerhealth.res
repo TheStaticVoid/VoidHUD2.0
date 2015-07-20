@@ -103,7 +103,8 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
-	}		
+	}
+	
 	"PlayerStatusHookBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -118,7 +119,7 @@
 		"scaleImage"	"1"
 		"image"			"../vgui/bleed_drop_grapple"
 		"fgcolor"			"TanDark"
-	}
+	}	
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
