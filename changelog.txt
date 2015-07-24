@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.3.2
+----------------------------------------------
+~ Hot fix from new valve update -- Tournament spectator is now working properly
+
+
+
+----------------------------------------------
 				Version 2.2.3.1
 ----------------------------------------------
 ~ Fixed some issues with 16:10 and 4:3 aspect ratios
