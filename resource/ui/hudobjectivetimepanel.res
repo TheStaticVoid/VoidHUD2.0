@@ -7,12 +7,14 @@
 		"xpos"			"32"
 		"ypos"			"-1"
 		"zpos"			"2"
-		"wide"			"42"
-		"tall"			"30"
+		"wide"			"41"
+		"tall"			"27"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/graytime"	
 		"scaleImage"		"1"	
+		"src_corner_height"	"10"
+		"src_corner_width"	"10"
 	}
 	"TimePanelProgressBar"
 	{

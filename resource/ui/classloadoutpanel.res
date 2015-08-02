@@ -75,7 +75,7 @@
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"8"
-			"tall"			"70"
+			"tall"			"10"
 			"autoResize"	"0"
 			"visible"		"0"
 			"enabled"		"1"

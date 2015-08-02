@@ -847,10 +847,10 @@
                 "visible"       "0"
             }
         }
-        "Kills"
+        "Kills1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Kills"
+            "fieldName" "Kills1"
             "font"      "sans24"
             "fgcolor"   "voidHPwhite"
             "labelText" "%kills%"
@@ -871,10 +871,10 @@
                 "visible"       "0"
             }
         }                       
-        "Deaths"
+        "Deaths1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Deaths"
+            "fieldName" "Deaths1"
             "font"      "sans24"
             "fgcolor"   "voidHPwhite"
             "labelText" "%deaths%"
@@ -921,10 +921,10 @@
                 "visible"       "0"
             }
         }
-        "Assists"
+        "Assists1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Assists"
+            "fieldName" "Assists1"
             "font"      "sans10"
             "fgcolor"   "voidHPwhite"
             "labelText" "%assists%"
@@ -969,10 +969,10 @@
                 "visible"       "0"
             }
         }
-        "Backstabs"
+        "Backstabs1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Backstabs"
+            "fieldName" "Backstabs1"
             "font"      "sans10"
             "fgcolor"   "voidHPwhite"
             "labelText" "%backstabs%"
@@ -1017,10 +1017,10 @@
                 "visible"       "0"
             }
         }
-        "Bonus"
+        "Bonus1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Bonus"
+            "fieldName" "Bonus1"
             "font"      "sans10"
             "fgcolor"   "voidHPwhite"
             "labelText" "%bonus%"
@@ -1065,10 +1065,10 @@
                 "visible"       "0"
             }
 		}
-		"Support"
+		"Support1"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Support"
+			"fieldName"		"Support1"
 			"font"			"sans10"
 			"labelText"		"%support%"
             "fgcolor" "voidHPwhite"
@@ -1113,10 +1113,10 @@
                 "visible"       "0"
             }
 		}
-		"Damage"
+		"Damage1"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Damage"
+			"fieldName"		"Damage1"
 			"font"			"sans10"
 			"labelText"		"%damage%"
             "fgcolor" "voidHPwhite"
@@ -1161,10 +1161,10 @@
                 "visible"       "0"
             }
         }
-        "Captures"
+        "Captures1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Captures"
+            "fieldName" "Captures1"
             "font"      "sans10"
             "fgcolor"   "voidHPwhite"
             "labelText" "%captures%"
@@ -1209,10 +1209,10 @@
                 "visible"       "0"
             }
         }
-        "Defenses"
+        "Defenses1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Defenses"
+            "fieldName" "Defenses1"
             "font"      "sans10"
             "fgcolor"   "voidHPwhite"
             "labelText" "%defenses%"
@@ -1257,10 +1257,10 @@
                 "visible"       "0"
             }
         }
-        "Destruction"
+        "Destruction1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Destruction"
+            "fieldName" "Destruction1"
             "font"      "sans10"
             "fgcolor"   "voidHPwhite"
             "labelText" "%destruction%"
@@ -1305,10 +1305,10 @@
                 "visible"       "0"
             }
         }                       
-        "Domination"
+        "Domination1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Domination"
+            "fieldName" "Domination1"
             "font"      "sans10"
             "fgcolor"   "voidHPwhite"
             "labelText" "%dominations%"
@@ -1353,10 +1353,10 @@
                 "visible"       "0"
             }
         }                       
-        "Headshots"
+        "Headshots1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Headshots"
+            "fieldName" "Headshots1"
             "font"      "sans10"
             "fgcolor"   "voidHPwhite"
             "labelText" "%headshots%"
@@ -1401,10 +1401,10 @@
                 "visible"       "0"
             }
         }                       
-        "Healing"
+        "Healing1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Healing"
+            "fieldName" "Healing1"
             "font"      "sans10"
             "fgcolor"   "voidHPwhite"
             "labelText" "%healing%"
@@ -1449,10 +1449,10 @@
                 "visible"       "0"
             }
         }                       
-        "Invuln"
+        "Invuln1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Invuln"
+            "fieldName" "Invuln1"
             "font"      "sans10"
             "fgcolor"   "voidHPwhite"
             "labelText" "%invulns%"
@@ -1497,10 +1497,10 @@
                 "visible"       "0"
             }
         }                       
-        "Revenge"
+        "Revenge1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Revenge"
+            "fieldName" "Revenge1"
             "font"      "sans10"
             "fgcolor"   "voidHPwhite"
             "labelText" "%Revenge%"
@@ -1547,10 +1547,10 @@
         }                       
         
                                 
-        "Teleports"
+        "Teleports1"
         {
             "ControlName"   "CExLabel"
-            "fieldName" "Teleports"
+            "fieldName" "Teleports1"
             "font"      "sans10"
             "fgcolor"   "voidHPwhite"
             "labelText" "%teleports%"

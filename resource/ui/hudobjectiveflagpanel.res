@@ -356,12 +356,13 @@
 		"if_hybrid"
 		{
 			"visible"	"0"
-			"ypos"		"r100"
+			"ypos"		"r80"
 		}
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"ypos"		"r60"
+			"xpos"		"c-60"
 		}
 		
 		"if_hybrid_double"

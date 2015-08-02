@@ -67,7 +67,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"ProgressText"
 		"font"			"sans10"
-		"xpos"			"10"
+		"xpos"			"9"
 		"ypos"			"0"
 		"zpos"			"23"
 		"wide"			"49"
@@ -86,7 +86,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"	"Blocked"
-		"xpos"		"18"
+		"xpos"		"17"
 		"ypos"		"2"
 		"zpos"		"21"
 		"wide"		"31"

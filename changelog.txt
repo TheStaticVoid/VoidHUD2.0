@@ -1,6 +1,22 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.4
+----------------------------------------------
+~ Moved the powerup canteen icon so that it didn't overlap medic ubercharge meter
+~ Fixed the carrier image in MvM
+~ Adjusted the size of the button in the loadout screen to change an item's styles
+~ Fixed the scoreboard from changing values to green
+~ Correctly centered the winpanel
+~ Centered the blocked indicator on control points
++ Edited the round timers
++ Added team colored background to the killstreak panel
++ Edited the team ready panel for tournament mode
++ Edited the controlling team indicator on the timer for koth
++ Updated the HUD logo/imgur album screenshots
+
+
+----------------------------------------------
 				Version 2.2.3.2
 ----------------------------------------------
 ~ Hot fix from new valve update -- Tournament spectator is now working properly
