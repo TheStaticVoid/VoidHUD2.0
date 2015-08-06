@@ -18,18 +18,18 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"2"	
 	}
 	
 	"WaveCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"sans12"
 		"fgcolor"		"TanLight"
 		"xpos"			"200"
-		"ypos"			"6"
+		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"15"
@@ -64,10 +64,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"sans12"
 		"fgcolor"		"TanLight"
 		"xpos"			"55"
-		"ypos"			"6"
+		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"60"
 		"tall"			"15"
@@ -98,8 +98,8 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"4"	
 	}
 	
 	"ProgressBarBG"
@@ -118,7 +118,7 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"4"	
 	}
 }

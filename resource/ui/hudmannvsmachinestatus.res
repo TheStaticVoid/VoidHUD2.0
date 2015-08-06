@@ -1,3 +1,4 @@
+
 "Resource/UI/HudMannVsMachineStatus.res"
 {	
 	"WaveStatusPanel"
@@ -47,10 +48,10 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"0"
-		"ypos"				"r100"
+		"xpos"				"c65"
+		"ypos"				"r120"
 		"wide"				"100"
-		"tall"				"100"
+		"tall"				"200"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -59,8 +60,8 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"33"
-		"ypos"				"r15"
+		"xpos"				"c90"
+		"ypos"				"r25"
 		"wide"				"100"
 		"tall"				"100"
 		"visible" 			"1"

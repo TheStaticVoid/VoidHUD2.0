@@ -15,7 +15,7 @@
         "tabPosition"       "0"
 		"medal_width"		"15"
         "avatar_width"      "57"    [$WIN32]
-        "name_width"        "118"    [$WIN32]
+        "name_width"        "110"    [$WIN32]
 		"name_width_short" "85"
         "status_width"      "15"    [$WIN32]
         "nemesis_width"     "15"    [$WIN32]
@@ -487,11 +487,12 @@
         "ControlName"       "CExLabel"
         "fieldName"     "SpectatorsInQueue"
         "font"          "sans10"
+		"fgcolor"		"voidHPwhite"
         "labelText"     "%waitingtoplay%"
         "textAlignment"     "west"
         "textinsetx"        "20"
-        "xpos"          "c-320"
-        "ypos"          "r70"   [$WIN32]
+        "xpos"          "c-265"
+        "ypos"          "r60"   [$WIN32]
         "zpos"          "4"
         "wide"          "500"
         "tall"          "20"

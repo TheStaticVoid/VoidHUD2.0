@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"HudFontSmallBold"
-		"fgcolor"		"TanLight"
+		"font"			"sans18"
+		"fgcolor"		"voidHPbuff"
 		"xpos"			"11"
 		"ypos"			"57"
 		"zpos"			"3"
@@ -21,8 +21,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"HudFontSmallBold"
-		"fgcolor"		"Black"
+		"font"			"sans18"
+		"fgcolor"		"voidHPgray"
 		"xpos"			"12"
 		"ypos"			"58"
 		"zpos"			"3"
@@ -43,8 +43,8 @@
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"TanLight"
 	}	
@@ -58,9 +58,27 @@
 		"zpos"			"2"
 		"wide"			"58"
 		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"CreditsGreen"
 	}
+		
+    "CurrencyPanelShade"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "CurrencyPanelShade"
+        "xpos"      "23"
+        "ypos"      "68"
+        "zpos"      "-10"
+        "wide"      "65"
+        "tall"      "47"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "fillcolor"     "0 0 0 150"
+        "PaintBackgroundType" "0"
+	}
+	
 }

@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-30"
+		"xpos"			"c-75"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"60"
@@ -29,15 +29,15 @@
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"23"
+			"xpos"			"13"
 			"ypos"			"7"
 			"zpos"			"2"
 			"wide"			"30"
@@ -46,16 +46,16 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"sans18"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"voidHPwhite"
 		}	
 		"countshadow"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"24"
+			"xpos"			"14"
 			"ypos"			"8"
 			"zpos"			"1"
 			"wide"			"30"
@@ -64,17 +64,17 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"sans18"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"Black"
+			"fgcolor"		"voidHPgray"
 		}
 		
 		"playerimage"
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
-			"xpos"			"12"
+			"xpos"			"40"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"8"
@@ -90,8 +90,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c-30"
-		"ypos"			"21"
+		"xpos"			"c15"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"30"
@@ -115,15 +115,15 @@
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"23"
+			"xpos"			"18"
 			"ypos"			"7"
 			"zpos"			"2"
 			"wide"			"30"
@@ -132,16 +132,16 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"sans18"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"voidHPwhite"
 		}	
 		"countshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"24"
+			"xpos"			"19"
 			"ypos"			"8"
 			"zpos"			"1"
 			"wide"			"30"
@@ -150,10 +150,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"sans18"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"Black"
+			"fgcolor"		"voidHPgray"
 		}
 	
 		"playerimage"

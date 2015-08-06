@@ -1,6 +1,29 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.5
+----------------------------------------------
+~ Decreased name_width in scoreboard to support 1280x720
+~ Correctly centered the waiting for players label
+~ Correctly centered the overtime and setup labels
++ Added A&D selection when crafting or equipping items
++ Added support to stopwatch tournament modes
++ Added a background to setup label
++ Edited the Wave panel for MvM
++ Edited the "F4 to toggle ready" in MvM
++ Added support for upgrade panel in MvM
++ Added full support for the MvM Scoreboard
++ Moved the MvM currency and put a transparent background behind it
++ Edited the contract panel a bit
++ Made the taunt panel more concise
++ Made the disguise panel more concise
++ Made the build panel more concise
++ Made the Eureka Effect teleport menu more concise
++ Added support for the pipboy
++ Lowered the engineer buildings panels
++ Added support for arena mode
+
+----------------------------------------------
 				Version 2.2.4
 ----------------------------------------------
 ~ Moved the powerup canteen icon so that it didn't overlap medic ubercharge meter

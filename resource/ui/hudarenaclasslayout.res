@@ -21,8 +21,8 @@
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
 				
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"3"	
 	}
 	
 	"localPlayerBG"
@@ -63,10 +63,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"HudFontMediumBold"
+		"font"			"sans32"
 		"labelText"		"#TF_Arena_Team_Layout"
 		"textAlignment"	"center"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"voidHPwhite"
 	}
 	"titleShadow"
 	{
@@ -81,10 +81,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"HudFontMediumBold"
+		"font"			"sans32"
 		"labelText"		"#TF_Arena_Team_Layout"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"voidHPgray"
 	}
 		
 	"changeLabel"

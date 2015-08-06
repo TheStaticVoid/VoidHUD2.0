@@ -19,14 +19,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"sans18"
 		"labelText"		"%popfile%"
 		"textAlignment"	"east"
-		"xpos"			"290"
-		"ypos"			"375"
+		"xpos"			"325"
+		"ypos"			"15"
 		"wide"			"290"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"voidHPwhite"
 	}
 
 	"DifficultyContainer"
@@ -34,37 +34,37 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
 		"xpos"			"425"
-		"ypos"			"30"
+		"ypos"			"40"
 		"wide"			"150"
-		"tall"			"20"
+		"tall"			"50"
 		"visible"		"1"
 		
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmallest"
+			"font"			"sans10"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"150"
 			"tall"			"10"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"voidHPwhite"
 		}
 		
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"HudFontSmallBold"
+			"font"			"sans18"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"9"
+			"ypos"			"3"
 			"wide"			"150"
-			"tall"			"10"
-			"fgcolor"		"tanlight"
+			"tall"			"30"
+			"fgcolor"		"voidHPwhite"
 		}
 	}
 	
@@ -86,8 +86,8 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"3"	
 	}
 	
 	"MvMPlayerList"
@@ -104,7 +104,7 @@
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"22"
-		"textcolor"		"White"
+		"textcolor"		"voidHPwhite"
 	}
 	
 	"CreditStatsContainer"
@@ -135,8 +135,8 @@
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
 		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"3"	
 		}
 		
 		"CreditsLabel"
@@ -205,7 +205,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"HudFontSmall"
+			"font"			"sans10"
 			"labelText"		"%respecstatus%"
 			"textAlignment" "north-east"
 			"xpos"			"115"
