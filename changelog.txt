@@ -1,9 +1,22 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.6
+----------------------------------------------
+~ Fixed Medic charge label not being white until first ubercharge
++ Added support for the Passtime gamemode
+
+
+----------------------------------------------
+				Version 2.2.5.1
+----------------------------------------------
+~ Fixed the "time not set" text in stopwatch mode
+~ Correctly centered the dropped money count in MvM
+
+
+----------------------------------------------
 				Version 2.2.5
 ----------------------------------------------
-~ Decreased name_width in scoreboard to support 1280x720
 ~ Correctly centered the waiting for players label
 ~ Correctly centered the overtime and setup labels
 + Added A&D selection when crafting or equipping items

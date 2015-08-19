@@ -78,6 +78,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"		"voidHPwhite"
 	}		
 
 	"ChargeMeter1"
@@ -97,6 +98,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"		"voidHPwhite"
 	}
 
 	"ChargeMeter2"
@@ -116,6 +118,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"		"voidHPwhite"
 	}
 
 	"ChargeMeter3"
@@ -135,6 +138,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"		"voidHPwhite"
 	}
 
 	"ChargeMeter4"
@@ -154,6 +158,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"		"voidHPwhite"
 	}
 	
 	"HealthClusterIcon"

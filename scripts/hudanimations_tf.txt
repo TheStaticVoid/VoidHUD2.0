@@ -231,7 +231,6 @@ event HudHealthBonusPulseStop
 
 //===========================================
 
-//Health Dying Pulse
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
@@ -328,11 +327,11 @@ event AccountMoneyInvisible
 
 //===========================================
 
-// This is were the original briefcase for ctf animation was
+// flag content
 
 //===========================================
 
-// This was were the original spy disguise animation was
+// Spy Disguise
 
 //===========================================
 
@@ -388,7 +387,6 @@ event HudTournamentSetupPanelClose
 
 
 //====================================
-
 // Flash the medic charge hud when we have full charge
 
 event HudMedicCharged
@@ -459,7 +457,25 @@ event ArenaVsPanelSlideOut
 
 //===========================================
 
-original payload animations
+//Cart Alarm Pulse
+event HudCartAlarmPulse
+{
+	Animate	EscortItemImageAlert 	Alpha		"160"		Linear 0.0 0.3
+	Animate	EscortItemImageAlert 	Alpha		"0"		Linear 0.6 0.3
+	
+	RunEvent HudCartAlarmPulseLoop	1.2
+}
+
+event HudCartAlarmPulseLoop
+{
+	RunEvent HudCartAlarmPulse 0.0
+}
+
+event HudCartAlarmPulseStop
+{
+	StopEvent HudCartAlarmPulse 0.0
+	StopEvent HudCartAlarmPulseLoop 0.0
+}
 
 //===========================================
 
@@ -835,4 +851,5 @@ event QuestItem_StaticPhoto_Reveal
 {
 	Animate StaticPhoto Alpha	"0"	Accel		0	2
 }
+
 //

@@ -152,8 +152,8 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"22"
-				"ypos"				"-3"
+				"xpos"				"17"
+				"ypos"				"2"
 				"zpos"				"3"
 				"wide"				"32"
 				"tall"				"32"
@@ -728,22 +728,24 @@
 		}
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"sans24"
 			"xpos"			"225"
 			"ypos"			"110"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"zpos"			"3"
+			"fgcolor"		"voidHPwhite"
 		}
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"sans24"
 			"xpos"			"225"
 			"ypos"			"110"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"25"
 			"zpos"			"3"
+			"fgcolor"		"voidHPwhite"
 		}
 	}
 	
@@ -777,24 +779,24 @@
 		}
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"sans24"
 			"xpos"			"226"
 			"ypos"			"111"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"25"
 			"visible"		"1"
-			"fgcolor"		"Black"
+			"fgcolor"		"voidHPgray"
 		}
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"sans24"
 			"xpos"			"226"
 			"ypos"			"111"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"25"
 			"visible"		"1"
-			"fgcolor"		"Black"
+			"fgcolor"		"voidHPgray"
 		}
 	}
 	
