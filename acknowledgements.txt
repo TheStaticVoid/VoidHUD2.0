@@ -34,3 +34,5 @@ http://teamfortress.tv/user/spice
 
 Wiethoofd -- High quality items in inventory & backpack
 http://teamfortress.tv/thread/25428/higher-quality-item-images-in-inventory-amp-loadouts
+
+Whoever runs the default TF2 HUD github repo -- you're the best!
