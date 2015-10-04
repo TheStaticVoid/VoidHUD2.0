@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.7
+----------------------------------------------
++ Added all the new misc stuff Valve added recently
++ Added the "Edit Loadout" button in class selection
+
+
+----------------------------------------------
 				Version 2.2.6.2
 ----------------------------------------------
 ~ Fixed a bug with pass time related to positioning of floating HUD elements

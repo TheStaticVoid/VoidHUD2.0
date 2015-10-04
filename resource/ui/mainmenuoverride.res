@@ -2064,7 +2064,7 @@
 			"use_proportional_insets" "1"
 			"font"			"sans12"
 			"textAlignment"	"center"
-			"labelText"		"voidHUD v2.2.6.2"
+			"labelText"		"voidHUD v2.2.7"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -4158,10 +4158,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
 			"xpos"			"cs-0.5"
-			"ypos"			"300"
+			"ypos"			"315"
 			"zpos"			"0"
 			"wide"			"p0.8"
-			"tall"			"120"
+			"tall"			"90"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -4196,7 +4196,7 @@
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"1"
+				"visible"		"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -4248,7 +4248,7 @@
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"1"
+				"visible"		"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 			
@@ -4296,10 +4296,10 @@
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"p0.47"
+				"ypos"					"25"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"p0.5"
+				"tall"					"60"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -4311,7 +4311,7 @@
 				{
 					"0"
 					{
-						"item"		"Unused Summer 2015 Operation Pass"
+						"item"		"Summer 2015 Operation Key"
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4320,7 +4320,7 @@
 					}
 					"1"
 					{
-						"item"		"Operation Summer 2015 Concealed Killer Case"
+						"item"		"Gun Mettle Cosmetic Case"
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4328,14 +4328,14 @@
 					}
 					"2"
 					{
-						"item"		"Operation Summer 2015 Powerhouse Case"
+						"item"		"Gun Mettle Cosmetic Key"
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
 					}
 					"3"
 					{
-						"item"		"Summer 2015 Operation Key"
+						"item"		"Operation Summer 2015 Concealed Killer Case"
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4344,16 +4344,14 @@
 					}
 					"4"
 					{
-						"item"		"Taunt: The Boxtrot"
-						
+						"item"		"Operation Summer 2015 Powerhouse Case"
+
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
-						"show_market"	"0"
 					}
 					"5"
-					{
-						"item"		"Taunt: The Proletariat Showoff"
+					{	"item"		"Taunt: The Boxtrot"
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4362,6 +4360,15 @@
 					}
 					"6"
 					{
+						"item"		"Taunt: The Proletariat Showoff"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"7"
+					{
 						"item"		"Taunt: Kazotsky Kick"
 						
 						"wide"		"f0"
@@ -4369,6 +4376,19 @@
 						"proportionaltoparent"	"1"
 						"show_market"	"0"
 					}
+					"8"
+					{
+						"item"		"Gun Mettle Cosmetic Case"
+
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+					}
+					<<<<<<< HEAD
+					"8"
+					{
+						"item"		"Map Token Snowplow"
+					=======
 					"7"
 					{
 						"item"		"Gun Mettle Cosmetic Case"
@@ -4380,7 +4400,7 @@
 					"8"
 					{
 						"item"		"Gun Mettle Cosmetic Key"
-						
+>>>>>>> f6186bf8172e486ca2a37ce974b38db1f2a90ed3	
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
@@ -4388,7 +4408,11 @@
 					}
 					"9"
 					{
+					<<<<<<< HEAD
+ 						"item"		"Map Token Borneo"
+=======
 						"item"		"Map Token Snowplow"
+>>>>>>> f6186bf8172e486ca2a37ce974b38db1f2a90ed3
 						
 						"wide"		"f0"
 						"tall"		"f0"
@@ -4397,17 +4421,22 @@
 					}
 					"10"
 					{
+<<<<<<< HEAD
+						"item"		"Map Token Suijin"
+=======
 						"item"		"Map Token Borneo"
-						
+>>>>>>> f6186bf8172e486ca2a37ce974b38db1f2a90ed3
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
 						"show_market"	"0"
 					}
 					"11"
-					{
+<<<<<<< HEAD
+ 						"item"		"Strange Filter: Snowplow (Community)"
+=======
 						"item"		"Map Token Suijin"
-						
+>>>>>>> f6186bf8172e486ca2a37ce974b38db1f2a90ed3
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
@@ -4415,8 +4444,11 @@
 					}
 					"12"
 					{
-						"item"		"Strange Filter: Snowplow (Community)"
-						
+<<<<<<< HEAD
+ 						"item"		"Strange Filter: Snowplow (Community)"
+=======
+						"item"		"Map Token Suijin"
+>>>>>>> f6186bf8172e486ca2a37ce974b38db1f2a90ed3
 						"wide"		"f0"
 						"tall"		"f0"
 						"proportionaltoparent"	"1"
@@ -4424,6 +4456,8 @@
 					}
 					"13"
 					{
+<<<<<<< HEAD
+=======
 						"item"		"Strange Filter: Borneo (Community)"
 						
 						"wide"		"f0"
@@ -4433,12 +4467,13 @@
 					}
 					"14"
 					{
+>>>>>>> f6186bf8172e486ca2a37ce974b38db1f2a90ed3
 						"item"		"Strange Filter: Suijin (Community)"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
+ 						
+ 						"wide"		"f0"
+ 						"tall"		"f0"
+ 						"proportionaltoparent"	"1"
+ 						"show_market"	"0"
 					}
 				}
 			}
@@ -4453,7 +4488,7 @@
 			"zpos"					"100"
 			"wide"					"80"
 			"tall"					"o1"
-			"visible"				"1"
+			"visible"				"0"
 			"enabled"				"1"
 			"image"					"new_large"
 			"scaleImage"			"1"
