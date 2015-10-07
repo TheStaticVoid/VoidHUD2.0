@@ -207,6 +207,10 @@
 		{
 			"image"		"../console/title_summer_operation_2015"
 		}
+		if_community_update
+		{
+			"image"		"../console/title_invasion"
+		}
 	}
 					
 	"TFLogoImage"
@@ -2064,7 +2068,7 @@
 			"use_proportional_insets" "1"
 			"font"			"sans12"
 			"textAlignment"	"center"
-			"labelText"		"voidHUD v2.2.7"
+			"labelText"		"voidHUD v2.2.8"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
