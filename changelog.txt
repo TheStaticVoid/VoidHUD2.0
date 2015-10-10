@@ -1,6 +1,20 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.8.1
+----------------------------------------------
+~ Repositioned the cycling item display in the main menu to what it used to be
++ Added missing content I didn't upload in last HUD update
++ Updated the Player Destruction HUD
+
+
+----------------------------------------------
+				Version 2.2.8
+----------------------------------------------
++ Added new Invasion main menu content
+
+
+----------------------------------------------
 				Version 2.2.7
 ----------------------------------------------
 + Added all the new misc stuff Valve added recently
