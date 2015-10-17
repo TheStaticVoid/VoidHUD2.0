@@ -591,7 +591,16 @@
 
 	HudDamageIndicator
 	{
-
+		"fieldName"		"HudDamageIndicator"
+		"visible" 			"1"
+		"enabled"			"1"
+		"MinimumWidth"	"25"
+		"MaximumWidth" "25"
+		"StartRadius"		"140"
+		"EndRadius"		"140"
+        "MinimumHeight" "75"
+        "MaximumHeight" "75"
+        "MinimumTime" "1" 
 	}
 
 	HudCommentary

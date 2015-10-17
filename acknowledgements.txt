@@ -35,4 +35,7 @@ http://teamfortress.tv/user/spice
 Wiethoofd -- High quality items in inventory & backpack
 http://teamfortress.tv/thread/25428/higher-quality-item-images-in-inventory-amp-loadouts
 
+intellectual -- Used medHud damage indicators for reference
+https://github.com/Intellectualbadass/medHUD/blob/master/scripts/hudlayout.res#L1219
+
 Whoever runs the default TF2 HUD github repo -- you're the best!
