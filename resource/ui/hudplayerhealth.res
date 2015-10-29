@@ -262,7 +262,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
 		"xpos"			"130"
-		"ypos"			"38"
+		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
 		"tall"			"32"
@@ -319,6 +319,21 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_SpyMarked"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"PlayerStatus_SpyMarked"
+		"xpos"					"85"
+		"ypos"					"0"
+		"zpos"					"7"
+		"wide"					"31"
+		"tall"						"31"
+		"visible"					"1"
+		"enabled"				"1"
+		"scaleImage"			"1"
+		"image"					""
+		"fgcolor"				"TanDark"
 	}
 	"PlayerStatus_Parachute"
 	{
@@ -419,7 +434,7 @@
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_warlock_hud"
@@ -469,5 +484,53 @@
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_knockout_hud"
 		"fgcolor"			"TanDark"
+	}
+	"PlayerStatus_RuneKing"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneKing"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_knockout_hud"
+		"fgcolor"		"TanDark"
+
+	}
+	"PlayerStatus_RunePlague"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RunePlague"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_knockout_hud"
+		"fgcolor"		"TanDark"
+
+	}
+	"PlayerStatus_RuneSupernova"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneSupernova"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_knockout_hud"
+		"fgcolor"		"TanDark"
+
 	}
 }

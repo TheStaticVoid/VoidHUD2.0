@@ -56,7 +56,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"32"	[$WIN32]
+		"xpos"			"32"	
 		"ypos"			"26"
 		"zpos"			"1"
 		"wide"			"41"
@@ -88,7 +88,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"32"	[$WIN32]
+		"xpos"			"32"	
 		"ypos"			"26"
 		"zpos"			"1"
 		"wide"			"41"
@@ -120,7 +120,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"16"	
 		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"zpos"			"1"
@@ -153,7 +153,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"32"	[$WIN32]
+		"xpos"			"32"	
 		"ypos"			"26"
 		"zpos"			"1"
 		"wide"			"41"
@@ -189,7 +189,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"16"	
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"78"

@@ -14,6 +14,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
+	"charinfo"
+	{
+		"fieldName"		"charInfo"
+		"xpos"		"0"
+		"ypos"		"0"
+		"visible"		"0"
+		"enabled"	"0"
+		"wide"		"0"
+		"tall"			"0"
+	}
 	
 	"SysMenu"
 	{

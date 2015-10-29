@@ -1,11 +1,19 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.9
+----------------------------------------------
++ Updated for Halloween 2015
+
+
+
+----------------------------------------------
 				Version 2.2.8.2
 ----------------------------------------------
 ~ Fixed some alignment issues in 4:3 resolution
 + Added playerclass image when not using the 3D model in the HUD.
 + Made damage indicators slightly smaller
++ Made HUD version number visible in 4:3 resolution 
 
 
 ----------------------------------------------
