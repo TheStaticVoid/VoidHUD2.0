@@ -2068,7 +2068,7 @@
 			"use_proportional_insets" "1"
 			"font"			"sans12"
 			"textAlignment"	"center"
-			"labelText"		"voidHUD v2.2.8.2"
+			"labelText"		"voidHUD v2.2.9.2"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -4308,43 +4308,29 @@
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"		"0 0 0 255"
 
+				"bgcolor_override"		"0 0 0 255"
 
 				"items"
 				{
 					"0"
 					{
-						"item"		"Unused Invasion Pass"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Halloween 2015 Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Invasion Key"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Halloween 2015 case"
 					}
 					"2"
 					{
-						"item"		"Invasion Case 01"
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Taunt: Zoomin' Broom"
+						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Invasion Case 02"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market" "0"
+						"item"		"Taunt: Maggot's Condolence"
+						"show_market"	"0"
 					}
 				}
 			}

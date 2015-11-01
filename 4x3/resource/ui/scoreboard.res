@@ -15,7 +15,7 @@
         "tabPosition"       "0"
 		"medal_width"		"15"
         "avatar_width"      "57"    [$WIN32]
-        "name_width"        "118"    [$WIN32]
+        "name_width"        "105"    [$WIN32]
 		"name_width_short" "85"
         "status_width"      "15"    [$WIN32]
         "nemesis_width"     "15"    [$WIN32]
@@ -763,7 +763,7 @@
     {
         "ControlName"       "EditablePanel"
         "fieldName"     "LocalPlayerStatsPanel"
-        "xpos"          "100"
+        "xpos"          "c-100"
         "ypos"          "r180"
         "zpos"          "3"
         "wide"          "f0"
@@ -787,7 +787,7 @@
             "labelText" "Kills"
             "textAlignment" "center"
             "textinsetx"    "20"
-            "xpos"      "c-175"
+            "xpos"      "c-280"
             "ypos"      "154"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
@@ -811,7 +811,7 @@
             "labelText" "Deaths"
             "textAlignment" "west"
             "textinsetx"    "20"
-            "xpos"      "c-110"
+            "xpos"      "c-215"
             "ypos"      "154"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
@@ -835,7 +835,7 @@
             "labelText" "%kills%"
             "textAlignment" "center"
             "textinsetx"    "10"
-            "xpos"      "c-165"
+            "xpos"      "c-270"
             "ypos"      "r355"  [$WIN32]
             "zpos"      "3"
             "wide"      "70"
@@ -859,7 +859,7 @@
             "labelText" "%deaths%"
             "textAlignment" "center"
             "textinsetx"    "10"
-            "xpos"      "c-120"
+            "xpos"      "c-225"
             "ypos"      "r355"  [$WIN32]
             "zpos"      "3"
             "wide"      "70"
@@ -1077,7 +1077,7 @@
 			"textAlignment"	"west"
             "fgcolor" "voidHPwhite"
             "textinsetx"    "20"
-            "xpos"      "c-211" [$WIN32]
+            "xpos"      "c-214" [$WIN32]
             "ypos"      "235"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
@@ -1101,7 +1101,7 @@
             "fgcolor" "voidHPwhite"
             "textAlignment" "east"  [$WIN32]
             "textinsetx"    "10"
-            "xpos"      "c-211" [$WIN32]
+            "xpos"      "c-214" [$WIN32]
             "ypos"      "235"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
@@ -1269,7 +1269,7 @@
             "labelText" "#TF_ScoreBoard_DominationLabel"
             "textAlignment" "west"
             "textinsetx"    "10"
-            "xpos"      "c-306" [$WIN32]
+            "xpos"      "c-302" [$WIN32]
             "ypos"      "246"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
@@ -1293,7 +1293,7 @@
             "labelText" "%dominations%"
             "textAlignment" "east"
             "textinsetx"    "20"
-            "xpos"      "c-306" [$WIN32]
+            "xpos"      "c-302" [$WIN32]
             "ypos"      "246"   [$WIN32]
             "zpos"      "3"
             "wide"      "90"
