@@ -205,7 +205,7 @@
 		}
 		if_operation
 		{
-			"image"		"../console/title_summer_operation_2015"
+			"image"		"../console/title_team_halloween2015"
 		}
 		if_community_update
 		{
@@ -2068,7 +2068,7 @@
 			"use_proportional_insets" "1"
 			"font"			"sans12"
 			"textAlignment"	"center"
-			"labelText"		"voidHUD v2.2.9.2"
+			"labelText"		"voidHUD v2.2.9.3"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"

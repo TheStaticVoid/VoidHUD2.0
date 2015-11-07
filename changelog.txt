@@ -1,6 +1,14 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.9.3
+----------------------------------------------
+~ Fixed alignment issues for engy build menus in 4:3
+~ Fixed overlapping of wheel of doom spells and health
+~ Fixed a HUD error in the console related to contracts
+
+
+----------------------------------------------
 				Version 2.2.9.2
 ----------------------------------------------
 ~ Hotfix for some bugs post update 2.2.9
