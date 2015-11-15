@@ -205,7 +205,7 @@
 		}
 		if_operation
 		{
-			"image"		"../console/title_team_halloween2015"
+			"image"		""
 		}
 		if_community_update
 		{
