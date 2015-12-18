@@ -2,12 +2,17 @@
             VoidHUD2.0 Installation
 ----------------------------------------------
 1.) Navigate to the Zip you downloaded voidHUD2.0 within
-2.) Extract files into a folder named voidHUD2.0 on your desktop
-3.) Move the voidHUD2.0 folder you just created to your TF2 custom folder.  This can be found by either going to:
+2.) Extract files into a folder named voidHUD2.0 on your desktop.
+3.) Move the voidHUD2.0 folder you just created to your TF2 custom folder. If you are on Windows, this can be found by either going to:
 
 C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom\
-or if you're on a 64-bit OS:
+or if you're on a 64-bit Windows installation:
 C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\
+
+If you are on Linux, this may be found in:
+~/.steam/steam/steamapps/common/Team Fortress 2/tf/custom/
+
+NOTE: On Linux, the voidHUD2.0 directory MUST be in lowercase (so, "voidhud2.0").
 
 If you have installed Steam into another directory, please navigate to it and follow the above folder navigation.
 4.) Run TF2 and the HUD should be installed
