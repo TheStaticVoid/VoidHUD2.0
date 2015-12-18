@@ -203,18 +203,18 @@
 		{
 			"image"		"../console/background_xmas2011"
 		}
-		if_eotl_launch
-		{
-			"image"		"../console/title_eotl01"
-		}
-		if_operation
-		{
-			"image"		""
-		}
-		if_community_update
-		{
-			"image"		"../console/title_invasion"
-		}
+//		if_eotl_launch
+//		{
+//			"image"		"../console/title_eotl01"
+//		}
+//		if_operation
+//		{
+//			"image"		""
+//		}
+//		if_community_update
+//		{
+//			"image"		"../console/title_invasion"
+//		}
 	}
 					
 	"TFLogoImage"
@@ -2072,7 +2072,7 @@
 			"use_proportional_insets" "1"
 			"font"			"sans12"
 			"textAlignment"	"center"
-			"labelText"		"voidHUD v2.2.9.3"
+			"labelText"		"voidHUD v2.2.9.6"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -4319,21 +4319,21 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2015 Key"
+						"item"		"Arkham Cowl"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2015 case"
+						"item"		"Fear Monger"
 					}
 					"2"
 					{
-						"item"		"Taunt: Zoomin' Broom"
+						"item"		"The Firefly"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Maggot's Condolence"
+						"item"		"Taunt: Soldier's Requiem"
 						"show_market"	"0"
 					}
 				}
