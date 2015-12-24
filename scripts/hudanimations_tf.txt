@@ -1032,6 +1032,45 @@ event CollectionCrafting_ShowFailure
 	SetVisible CloseButton		1	0
 }
 
+event CollectionCrafting_WaitForItemsOnly
+{
+ 	// Set Everything Invisible
+ 	SetVisible ReturnModel			0					0
+	SetVisible	SendEvelopeButton		 0				0 
+ 	SetVisible ResponseTimeout		0					0
+ 	SetVisible WaitingForResponse	0					0
+ 	SetVisible ShowExplanationsButton1			0					0
+ 	SetVisible ShowExplanationsButton2			0					0
+ 	SetVisible ShowExplanationsButton2	0			0
+ 	SetVisible	SendEvelopeButton		0			0 
+ 	SetVisible CloseButton		0					0
+ 	
+ 	SetVisible ApplyStampButton		0					0
+ 	SetVisible Stamp				0					0
+ 	Animate Stamp					xpos c140	Accel	0 0
+ 	Animate DrawingPanel			xpos c0		Accel	0 0
+ 	Animate DrawingPanel			wide 0		Accel	0 0
+ 	Animate LetterFront				xpos c0		Accel	0 0
+ 	Animate LetterFront				wide 0		Accel	0 0
+ 	Animate LetterBack_Top		xpos c-250	Accel	0 0
+ 	Animate LetterBack_Top		ypos 400	Accel	0 0
+ 	Animate LetterBack_Top		wide 500	Accel	0 0
+ 	Animate LetterBack_Bottom		xpos c-250	Accel	0 0
+ 	Animate LetterBack_Bottom		ypos 400	Accel	0 0
+ 	Animate LetterBack_Bottom		wide 500	Accel	0 0
+ 	Animate LetterBack_Flap			xpos c-250	Accel	0 0
+ 	Animate LetterBack_Flap			ypos 400	Accel	0 0
+ 	Animate LetterBack_Flap			wide 500	Accel	0 0
+ 	Animate LetterBack_Flap			tall 0		Deaccel 0.6 0.4
+ 	Animate LetterBack_Top			ypos 400	Accel	0 0
+ 	
+ 	// Slider BG up
+ 	Animate BG			Position	"0 34"	Deaccel	0	0.3
+ 
+ 	// Fade dimmer down
+ 	Animate Dimmer Alpha "255" Linear 0 0.4
+ }
+ 
 //--------------------------------------------------------------------------
 event QuestItem_Identify_Expand
 {
