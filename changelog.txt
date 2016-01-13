@@ -1,6 +1,12 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.9.8
+----------------------------------------------
+~ Fixed the scoreboard for the latest patch
+
+
+----------------------------------------------
 				Version 2.2.9.7
 ----------------------------------------------
 ~ Added extra HUD things in Tough Break

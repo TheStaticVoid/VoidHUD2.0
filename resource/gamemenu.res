@@ -2,7 +2,7 @@
 {
 	"Version"
 	{
-		"label" "voidHUD v2.2.9.7" 
+		"label" "voidHUD v2.2.9.8" 
 		"subimage" ""
 		"OnlyAtMenu" "0"
 	}

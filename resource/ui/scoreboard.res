@@ -14,16 +14,17 @@
         "enabled"       "1"
         "tabPosition"       "0"
 		"medal_width"		"15"
-        "avatar_width"      "57"    
+        "avatar_width"      "55"    
+		"spacer"					"1"
         "name_width"        "110"   
 		"name_width_short" "85"
-        "status_width"      "15"  
-        "nemesis_width"     "15"  
-        "class_width"       "15"    
-        "score_width"       "20"
-        "ping_width"        "20"  
+        "nemesis_width"     "25"  
+        "class_width"       "25"    
+        "score_width"       "30"
+        "ping_width"        "25"  
 		"stats_width"			"30"
-		"killstreak_width"		"20"
+		"killstreak_width"		"15"
+		"killstreak_image_width" "15"
     }
     "BlueScoreBG"
     {
@@ -372,6 +373,7 @@
             "ypos"          "0"
         }
     }
+	
     "ServerTimeLeft"
     {
         "ControlName"       "CExLabel"
