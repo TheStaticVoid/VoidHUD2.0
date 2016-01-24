@@ -2,7 +2,7 @@
 {
 	"Version"
 	{
-		"label" "voidHUD v2.2.9.8" 
+		"label" "voidHUD v2.2.9.9" 
 		"subimage" ""
 		"OnlyAtMenu" "0"
 	}
@@ -34,13 +34,12 @@
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
-	"PlayCompetitiveButton"
+	"PlayCompButton"
 	{
 		"label" "#MMenu_PlayComp"
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
 	}
 	"ServerBrowserButton"
 	{

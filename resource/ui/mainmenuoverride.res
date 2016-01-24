@@ -254,7 +254,7 @@
 		"ypos"			"80"
 		"zpos"			"-1"
 		"wide"			"136"
-		"tall"			"265"
+		"tall"			"290"
 		"visible"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
@@ -263,7 +263,7 @@
 		
 		if_competitive
 		{
-			"tall"		"156"
+			"tall"		"265"
 		}
 
 	}	
@@ -358,7 +358,7 @@
 		
 		if_competitive
 		{
-			"ypos"		"219"
+			"ypos"		"143"
 		}
 		
 		"SubButton"
@@ -1217,7 +1217,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
 		"xpos"			"30"
-		"ypos"			"165"
+		"ypos"			"340"
 		"zpos"			"11"
 		"wide"			"135"
 		"tall"			"36"
@@ -1232,7 +1232,7 @@
 
 		if_competitive
 		{
-			"ypos"		"216"
+			"ypos"		"165"
 		}
 
 		"SubButton"
@@ -1304,7 +1304,7 @@
 		
 		if_competitive
 		{
-			"ypos"		"342"
+			"ypos"		"265"
 		}
 
 		"SubButton"
@@ -1374,7 +1374,7 @@
 
 		if_competitive
 		{
-			"ypos"		"384"
+			"ypos"		"290"
 		}
 
 		"SubButton"
@@ -1443,7 +1443,7 @@
 		
 		if_competitive
 		{
-			"ypos"		"342"
+			"ypos"		"315"
 		}
 
 		"SubButton"
@@ -1515,7 +1515,7 @@
 		
 		if_competitive
 		{
-			"ypos"		"279"
+			"ypos"		"290"
 		}
 
 		"SubButton"
@@ -2072,7 +2072,7 @@
 			"use_proportional_insets" "1"
 			"font"			"sans12"
 			"textAlignment"	"center"
-			"labelText"		"voidHUD v2.2.9.8"
+			"labelText"		"voidHUD v2.2.9.9"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -2107,17 +2107,17 @@
 		}
 	}
 	
-	"PlayCompetitiveButton"
+	"PlayCompButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"PlayCompetitiveButton"
-		"xpos"			"c-285"
-		"ypos"			"180"
+		"fieldname"		"PlayCompButton"
+		"xpos"			"30"
+		"ypos"			"165"
 		"zpos"			"11"
-		"wide"			"270"
+		"wide"			"250"
 		"tall"			"36"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 
 		"navUp"			"PlayPVEButton"
@@ -2131,16 +2131,16 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"250"
+			"wide"			"125"
 			"tall"			"26"
 			"autoResize"	"0"
 			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"sans14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2178,7 +2178,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldname"		"CompetitiveBetaImage"
-			"xpos"			"223"
+			"xpos"			"4"
 			"ypos"			"3"
 			"zpos"			"12"
 			"wide"			"20"

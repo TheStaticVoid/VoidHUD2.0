@@ -1,6 +1,12 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.2.9.9
+----------------------------------------------
++ Added matchmaking button to main menu
+
+
+----------------------------------------------
 				Version 2.2.9.8
 ----------------------------------------------
 ~ Fixed the scoreboard for the latest patch
