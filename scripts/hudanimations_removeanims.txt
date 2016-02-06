@@ -1,0 +1,55 @@
+//===========================================
+
+event ControlPointIconShrink
+{
+}
+
+event ControlPointIconGrow
+{
+}
+
+
+//===========================================
+
+event FlagOutlineHide
+{
+}
+
+// Local player flag pickup/drop
+event FlagOutline
+{
+}
+
+//===========================================
+
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+}
+
+event HudSpyDisguiseHide
+{
+}
+
+event HudSpyDisguiseFadeIn
+{
+}
+
+event HudSpyDisguiseFadeOut
+{
+}
+
+
+
+//Cart Alarm Pulse
+event HudCartAlarmPulse
+{
+}
+
+event HudCartAlarmPulseLoop
+{
+}
+
+event HudCartAlarmPulseStop
+{
+}

@@ -39,3 +39,6 @@ intellectual -- Used medHud damage indicators for reference
 https://github.com/Intellectualbadass/medHUD/blob/master/scripts/hudlayout.res#L1219
 
 Whoever runs the default TF2 HUD github repo -- you're the best!
+
+wiet -- Provided the information needed to fix the animations files so they dont break every update.  An unspoken hero, if you will
+https://github.com/Wiethoofd/WietHUD

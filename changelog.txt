@@ -1,6 +1,14 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.3.0.0
+----------------------------------------------
+- Removed custom crosshairs, they were buggy, bad, and poorly implemented by myself.  Users can install their own custom crosshairs
+- Removed the sourcescheme file.  This will remove the net_graph current style.  To get a small net_graph, type net_graphproportionalfont 0
+~ Applied the similar update to boredHUD related to hudanimations files, meaning they will no longer be the cause of the hud breaking in future updates
+
+
+----------------------------------------------
 				Version 2.2.9.9
 ----------------------------------------------
 + Added matchmaking button to main menu

@@ -1,0 +1,8 @@
+hudanimations_manifest
+{
+	"file"		"scripts/hudanimations.txt"
+	"file"		"scripts/hudanimations_mediccharge.txt"
+	"file"		"scripts/hudanimations_ammoandhealth.txt"
+	"file"		"scripts/HudAnimations_RemoveAnims.txt"
+	"file"		"scripts/hudanimations_tf.txt"
+}
