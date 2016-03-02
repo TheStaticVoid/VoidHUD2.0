@@ -261,10 +261,6 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 		
-		if_competitive
-		{
-			"tall"		"265"
-		}
 
 	}	
 	"PlayLabel"
@@ -356,10 +352,6 @@
 		"navRight"		"TrainingButton"
 		"navToRelay"	"SubButton"
 		
-		if_competitive
-		{
-			"ypos"		"143"
-		}
 		
 		"SubButton"
 		{
@@ -1230,10 +1222,6 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
-		if_competitive
-		{
-			"ypos"		"165"
-		}
 
 		"SubButton"
 		{
@@ -1302,10 +1290,7 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 		
-		if_competitive
-		{
-			"ypos"		"265"
-		}
+	
 
 		"SubButton"
 		{
@@ -1372,10 +1357,6 @@
 		"navDown"		"ConsoleButton"
 		"navToRelay"	"SubButton"
 
-		if_competitive
-		{
-			"ypos"		"290"
-		}
 
 		"SubButton"
 		{
@@ -1441,10 +1422,7 @@
 		"navUp"			"DemoUIButton"
 		"navToRelay"	"SubButton"
 		
-		if_competitive
-		{
-			"ypos"		"315"
-		}
+	
 
 		"SubButton"
 		{
@@ -1513,10 +1491,7 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 		
-		if_competitive
-		{
-			"ypos"		"290"
-		}
+	
 
 		"SubButton"
 		{
@@ -2072,7 +2047,7 @@
 			"use_proportional_insets" "1"
 			"font"			"sans12"
 			"textAlignment"	"center"
-			"labelText"		"voidHUD v2.3.0.0"
+			"labelText"		"voidHUD v2.3.0.2"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"

@@ -1,6 +1,16 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.3.0.2
+----------------------------------------------
+~ This update should fix everything for matchmaking.  Custom files may still crash the game, so be wary.
++ Added new fonts to clientscheme
++ Fixed HudTournament ready up panel
++ Fixed the winpanel at the end not displaying properly
+- Removed custom crosshair instances still being in the old hudlayout.res of 4x3 and 16x10 resolutions
+
+
+----------------------------------------------
 				Version 2.3.0.1
 ----------------------------------------------
 + Added necessary files for the Matchmaking update!
