@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.3.0.1
+----------------------------------------------
++ Added necessary files for the Matchmaking update!
+!! Report any bugs to me right away !!
+
+
+----------------------------------------------
 				Version 2.3.0.0
 ----------------------------------------------
 - Removed custom crosshairs, they were buggy, bad, and poorly implemented by myself.  Users can install their own custom crosshairs
