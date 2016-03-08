@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.3.0.3
+----------------------------------------------
+~ Fixed ready up panels for matchmaking not appearing correctly
++ Added voidHUD fonts to the match summary panel
+
+
+----------------------------------------------
 				Version 2.3.0.2
 ----------------------------------------------
 ~ This update should fix everything for matchmaking.  Custom files may still crash the game, so be wary.

@@ -790,8 +790,8 @@
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 		
 		if_mvm
 		{
@@ -816,7 +816,7 @@
 		"xpos"			"0"
 		"ypos"			"54"
 		"wide"			"250"
-		"tall"			"10"
+		"tall"			"25"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -829,31 +829,31 @@
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"sans24"
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"25"
 			"zpos"			"3"
 		}
 
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"sans24"
 			"xpos"			"cs-0.5"
 			"ypos"			"110"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"25"
 			"zpos"			"3"
 		}
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"sans24"
 			"xpos"			"225"
 			"ypos"			"110"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"25"
 			"zpos"			"3"
 		}
 	}
@@ -866,7 +866,7 @@
 		"xpos"			"0"
 		"ypos"			"54"
 		"wide"			"250"
-		"tall"			"10"
+		"tall"			"25"
 		"zpos"			"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -879,33 +879,33 @@
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"sans24"
 			"xpos"			"156"
 			"ypos"			"106"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"25"
 			"visible"		"1"
 			"fgcolor"		"Black"
 		}
 
 		if_competitive
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"sans24"
 			"xpos"			"cs-0.5"
 			"ypos"			"111"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"25"
 			"visible"		"1"
 			"fgcolor"		"Black"
 		}
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"sans24"
 			"xpos"			"226"
 			"ypos"			"111"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"25"
 			"visible"		"1"
 			"fgcolor"		"Black"
 		}
@@ -1011,7 +1011,7 @@
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.1"
-			"fgcolor"		"customWhite"
+			"fgcolor"		"voidHPwhite"
 			"font"			"sans24"
 		}
 
