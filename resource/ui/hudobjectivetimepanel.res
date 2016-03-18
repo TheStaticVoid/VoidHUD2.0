@@ -15,6 +15,12 @@
 		"scaleImage"		"1"	
 		"src_corner_height"	"10"
 		"src_corner_width"	"10"
+		
+		if_comp
+ 		{
+ 			"visible"	"0"
+ 		}
+ 		
 	}
 	"TimePanelProgressBar"
 	{
@@ -33,6 +39,11 @@
 		"color_inactive"		"TimerProgress.InActive"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
+		
+		if_comp
+ 		{
+ 			"visible"	"0"
+ 		}
 	}
 	"WaitingForPlayersLabel"
 	{
@@ -51,6 +62,14 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
+		
+		if_comp
+ 		{
+ 			"proportionaltoparent"	"1"
+ 			"xpos"					"cs-0.5"
+ 			"ypos"					"17"
+ 			"font"					"HudFontSmallestBold"
+ 		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -65,6 +84,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		if_comp
+ 		{
+ 			"wide"	"0"
+ 		}
 	}
 	"OvertimeLabel"
 	{
@@ -83,6 +107,14 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
+		
+		if_comp
+ 		{
+ 			"proportionaltoparent"	"1"
+ 			"xpos"					"cs-0.5"
+ 			"ypos"					"17"
+ 			"font"					"HudFontSmallestBold"
+ 		}
 	}			
 	"OvertimeBG"
 	{
@@ -97,6 +129,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
+		
+		if_comp
+ 		{
+ 			"wide"	"0"
+ 		}
 	}
 	"SuddenDeathLabel"
 	{
@@ -115,6 +152,13 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
+		
+		if_comp
+ 		{
+ 			"proportionaltoparent"	"1"
+ 			"xpos"					"cs-0.5"
+ 			"ypos"					"17"
+ 		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -130,6 +174,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		if_comp
+ 		{
+ 			"wide"	"0"
+ 		}
 	}	
 	"SetupLabel"
 	{
@@ -148,6 +197,14 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubTextSuddenDeath"
+		
+			if_comp
+ 		{
+ 			"proportionaltoparent"	"1"
+ 			"xpos"					"cs-0.5"
+ 			"ypos"					"17"
+ 			"ypos_minmode"			"17"
+ 		}
 	}	
 	"SetupBG"
 	{
@@ -166,6 +223,11 @@
 		"src_corner_width"	"40"
 		"draw_corner_height"	"0"
 		"draw_corner_width"	"0"
+		
+		if_comp
+ 		{
+ 			"wide"	"0"
+ 		}
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -184,6 +246,14 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
+		
+		if_comp
+ 		{
+ 			"proportionaltoparent"	"1"
+ 			"xpos"					"cs-0.5"
+ 			"ypos"					"17"
+ 			"font"					"HudFontSmallestBold"
+ 		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -198,5 +268,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		
+ 		if_comp
+ 		{
+ 			"wide"	"0"
+ 		}
 	}
 }

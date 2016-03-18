@@ -1,6 +1,12 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.3.0.4
+----------------------------------------------
+~ Fixed round timers not displaying
++ Added support for todays update
+
+----------------------------------------------
 				Version 2.3.0.3
 ----------------------------------------------
 ~ Fixed ready up panels for matchmaking not appearing correctly
