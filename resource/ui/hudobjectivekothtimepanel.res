@@ -64,7 +64,7 @@
  				"ypos"			"9"
  				"tall"			"10"
  				"wide"			"35"
- 				"font"			"HudFontSmall"
+ 				"font"			"sans12"
  			
  			}
 		}	
@@ -126,7 +126,7 @@
  				"ypos"			"9"
  				"wide"			"35"
  				"tall"			"10"
- 				"font"			"HudFontSmall"
+ 				"font"			"sans12"
  			
  			}
 		}	

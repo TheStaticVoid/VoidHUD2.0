@@ -1,6 +1,14 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.3.0.5
+----------------------------------------------
+~ Fixed the alignment of the competitive MM button in the main menu for 4:3
++ Put the voidHUD font in the Matchmaking KOTH timers
++ Added the report player button to the in-game menu
+
+
+----------------------------------------------
 				Version 2.3.0.4
 ----------------------------------------------
 ~ Fixed round timers not displaying

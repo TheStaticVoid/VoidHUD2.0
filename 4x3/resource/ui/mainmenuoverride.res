@@ -191,6 +191,10 @@
 		{
 			"image"		"../console/title_team_halloween2014"
 		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
@@ -199,18 +203,18 @@
 		{
 			"image"		"../console/background_xmas2011"
 		}
-		if_eotl_launch
-		{
-			"image"		"../console/title_eotl01"
-		}
-		if_operation
-		{
-			"image"		""
-		}
-		if_community_update
-		{
-			"image"		"../console/title_invasion"
-		}
+//		if_eotl_launch
+//		{
+//			"image"		"../console/title_eotl01"
+//		}
+//		if_operation
+//		{
+//			"image"		""
+//		}
+//		if_community_update
+//		{
+//			"image"		"../console/title_invasion"
+//		}
 	}
 					
 	"TFLogoImage"
@@ -250,13 +254,13 @@
 		"ypos"			"80"
 		"zpos"			"-1"
 		"wide"			"136"
-		"tall"			"265"
+		"tall"			"290"
 		"visible"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-	
+		
 
 	}	
 	"PlayLabel"
@@ -348,7 +352,6 @@
 		"navRight"		"TrainingButton"
 		"navToRelay"	"SubButton"
 		
-
 		
 		"SubButton"
 		{
@@ -562,7 +565,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 				
@@ -1206,7 +1209,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
 		"xpos"			"30"
-		"ypos"			"165"
+		"ypos"			"340"
 		"zpos"			"11"
 		"wide"			"135"
 		"tall"			"36"
@@ -1218,7 +1221,6 @@
 		"navLeft"		"CreateServerButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
-
 
 
 		"SubButton"
@@ -1288,7 +1290,7 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 		
-
+	
 
 		"SubButton"
 		{
@@ -1356,7 +1358,6 @@
 		"navToRelay"	"SubButton"
 
 
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1421,7 +1422,7 @@
 		"navUp"			"DemoUIButton"
 		"navToRelay"	"SubButton"
 		
-
+	
 
 		"SubButton"
 		{
@@ -1490,7 +1491,7 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 		
-
+	
 
 		"SubButton"
 		{
@@ -2022,7 +2023,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"Version"
-		"xpos"			"c55"
+		"xpos"			"c65"
 		"ypos"			"c75"
 		"zpos"			"11"
 		"wide"			"216"
@@ -2046,7 +2047,7 @@
 			"use_proportional_insets" "1"
 			"font"			"sans12"
 			"textAlignment"	"center"
-			"labelText"		"voidHUD v2.3.0.4"
+			"labelText"		"voidHUD v2.3.0.5"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -2081,17 +2082,17 @@
 		}
 	}
 	
-	"PlayCompetitiveButton"
+	"PlayCompButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"PlayCompetitiveButton"
-		"xpos"			"c-285"
-		"ypos"			"180"
+		"fieldname"		"PlayCompButton"
+		"xpos"			"30"
+		"ypos"			"165"
 		"zpos"			"11"
-		"wide"			"270"
+		"wide"			"250"
 		"tall"			"36"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 
 		"navUp"			"PlayPVEButton"
@@ -2105,16 +2106,16 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"250"
+			"wide"			"125"
 			"tall"			"26"
 			"autoResize"	"0"
 			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"sans14"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2152,7 +2153,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldname"		"CompetitiveBetaImage"
-			"xpos"			"223"
+			"xpos"			"4"
 			"ypos"			"3"
 			"zpos"			"12"
 			"wide"			"20"
@@ -2574,12 +2575,79 @@
 			}
 		}
 	}
+	
+	"ReportPlayerButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ReportPlayerButton"
+		"xpos"			"45"
+		"ypos"			"91"
+		"zpos"			"12"
+		"wide"			"26"
+		"tall"			"26"
+		"visible"		"1"
 
+		"navLeft"		"ResumeGameButton"
+		"navRight"		"CallVoteButton"
+		"navDown"		"QuickplayChangeButton"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuMiniButtonDefault"
+			"border_armed"		"MainMenuMiniButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"4"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_create"
+				"scaleImage"	"1"
+			}				
+		}
+	}
+	
 	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"55"
+		"xpos"			"70"
 		"ypos"			"91"
 		"zpos"			"12"
 		"wide"			"26"
@@ -2645,7 +2713,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"80"
+		"xpos"			"95"
 		"ypos"			"91"
 		"zpos"			"12"
 		"wide"			"26"
@@ -2712,7 +2780,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"105"
+		"xpos"			"120"
 		"ypos"			"91"
 		"zpos"			"12"
 		"wide"			"26"
@@ -4293,21 +4361,21 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2015 Key"
+						"item"		"Arkham Cowl"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2015 case"
+						"item"		"Fear Monger"
 					}
 					"2"
 					{
-						"item"		"Taunt: Zoomin' Broom"
+						"item"		"The Firefly"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Maggot's Condolence"
+						"item"		"Taunt: Soldier's Requiem"
 						"show_market"	"0"
 					}
 				}

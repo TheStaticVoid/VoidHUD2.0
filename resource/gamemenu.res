@@ -2,7 +2,7 @@
 {
 	"Version"
 	{
-		"label" "voidHUD v2.3.0.4" 
+		"label" "voidHUD v2.3.0.5" 
 		"subimage" ""
 		"OnlyAtMenu" "0"
 	}
@@ -148,5 +148,13 @@
 		"command" "engine toggle cl_hud_minmode "
 		"OnlyInGame" "1"
 		"subimage"	"glyph_practice"
+	}
+	"ReportPlayerButton"
+	{
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }
