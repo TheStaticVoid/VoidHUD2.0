@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.3.0.6
+----------------------------------------------
++ Updated files for today's update
++ Added stream panel to the main menu
+* Also as a side note, Valve finally fixed the time panel not displaying in non-matchmaking formats
+
+----------------------------------------------
 				Version 2.3.0.5
 ----------------------------------------------
 ~ Fixed the alignment of the competitive MM button in the main menu for 4:3
