@@ -1,6 +1,14 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.3.0.7
+----------------------------------------------
+~ Reverted the tournament ready up panel to what it was prior to the matchmaking updates
+~ Fixed the team names in the scoreboard being below the red / blue colored panels
+~ Fixed itemmodelpanelcollectionitem.txt being a .txt file extension rather than a .res
+
+
+----------------------------------------------
 				Version 2.3.0.6
 ----------------------------------------------
 + Updated files for today's update

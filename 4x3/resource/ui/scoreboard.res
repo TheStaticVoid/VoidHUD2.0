@@ -107,6 +107,7 @@
         "textinsetx"        "10"
         "xpos"          "c-290"
         "ypos"          "c-40"  [$WIN32]
+		"zpos"			"100"
         "wide"          "200"
         "tall"          "40"
         "autoResize"        "0"
@@ -243,6 +244,7 @@
         "textinsetx"        "20"
         "xpos"          "c90"
         "ypos"          "c-40"  [$WIN32]
+		"zpos"			"100"
         "wide"          "200"
         "tall"          "40"
         "autoResize"    "0"
