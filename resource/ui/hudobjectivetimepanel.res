@@ -67,7 +67,7 @@
  		{
  			"proportionaltoparent"	"1"
  			"xpos"					"cs-0.5"
- 			"ypos"					"17"
+ 			"ypos"					"21"
  			"font"					"HudFontSmallestBold"
  		}
 	}			
@@ -112,7 +112,7 @@
  		{
  			"proportionaltoparent"	"1"
  			"xpos"					"cs-0.5"
- 			"ypos"					"17"
+ 			"ypos"					"21"
  			"font"					"HudFontSmallestBold"
  		}
 	}			
@@ -157,7 +157,7 @@
  		{
  			"proportionaltoparent"	"1"
  			"xpos"					"cs-0.5"
- 			"ypos"					"17"
+ 			"ypos"					"21"
  		}
 	}			
 	"SuddenDeathBG"
@@ -202,8 +202,7 @@
  		{
  			"proportionaltoparent"	"1"
  			"xpos"					"cs-0.5"
- 			"ypos"					"17"
- 			"ypos_minmode"			"17"
+ 			"ypos"					"21"
  		}
 	}	
 	"SetupBG"
@@ -251,7 +250,7 @@
  		{
  			"proportionaltoparent"	"1"
  			"xpos"					"cs-0.5"
- 			"ypos"					"17"
+ 			"ypos"					"21"
  			"font"					"HudFontSmallestBold"
  		}
 	}	

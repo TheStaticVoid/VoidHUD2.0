@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.3.0.8
+----------------------------------------------
+~ Updated all files for the recent TF2 patch
+~ Fixed the winpanel displaying incorrectly
+
+
+----------------------------------------------
 				Version 2.3.0.7
 ----------------------------------------------
 ~ Reverted the tournament ready up panel to what it was prior to the matchmaking updates

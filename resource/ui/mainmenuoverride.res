@@ -4466,7 +4466,7 @@
 					}
 					"3"
 					{
-						"item"		"Taunt: Soldier's Requiem"
+						"item"		"Taunt: Manncrobics"
 						"show_market"	"0"
 					}
 				}

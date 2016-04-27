@@ -12,6 +12,36 @@
 		
 		"BlueScoreBG"
 		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"BlueScoreBG"
+			"xpos"			"50"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			
+			"border"		"TFFatLineBorderBlueBGMoreOpaque"
+		}
+		"RedScoreBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedScoreBG"
+			"xpos"			"197"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+
+			"border"		"TFFatLineBorderRedBGMoreOpaque"
+		}
+		"BlueScoreBG1"
+		{
 			"ControlName"			"ScalableImagePanel"
 			"fieldName"				"BlueScoreBG"
 			"xpos"					"105"
@@ -29,7 +59,7 @@
 			"draw_corner_height"	"3"	
 		}
 		
-		"RedScoreBG"
+		"RedScoreBG1"
 		{
 			"ControlName"			"ScalableImagePanel"
 			"fieldName"				"RedScoreBG"
@@ -58,12 +88,14 @@
 			"textAlignment"			"west"
 			"xpos"					"110"
 			"ypos"					"26"
+			"zpos"					"10"
 			"wide"					"43"
 			"tall"					"20"
 			"autoResize"			"0"
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
+			"fgcolor"				"voidHPwhite"
 		}
 		
 		"BlueTeamScore"
@@ -114,12 +146,15 @@
 			"textAlignment"			"east"
 			"xpos"					"227"
 			"ypos"					"26"
+			"zpos"					"10"
 			"wide"					"43"
 			"tall"					"20"
 			"autoResize"			"0"
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
+			
+			"fgcolor"				"voidHPwhite"
 		}
 		
 		"RedTeamScore"
@@ -161,14 +196,20 @@
 		}
 	}
 	
-	"WinPanelBG"
+	"WinPanelBGBorder"
 	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"WinPanelBG"
-		"wide"						"0"
-		"tall"						"0"
-		"visible"					"0"
-		"enabled"					"0"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
+		"xpos"			"cs-0.5"
+		"ypos"			"70"
+		"zpos"			"0"
+		"wide"			"p0.94"
+		"tall"			"185"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"		"1"	
+		"border"		"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
 	}
 	
 	"WinningTeamLabel"
