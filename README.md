@@ -11,3 +11,7 @@ http://steamcommunity.com/groups/voidhud
 
 TFTV Thread:
 http://teamfortress.tv/thread/22190/voidhud2-0
+
+===Installation===
+
+See [installation.txt](installation.txt).
