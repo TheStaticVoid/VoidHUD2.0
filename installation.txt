@@ -51,4 +51,4 @@ If your crosshair appears off-center, or doesn't look right, which is usually ca
                     Installation
 ----------------------------------------------
 
-Due to requests, I have added several different files in the 'resource\ui' directory, to install them, simply change their username to that of the actual file.  i.e. HudPlayerHealth_cross.res, would be renamed to HudPlayerHealth.res, and so on
+Due to requests, I have added several different files in the 'resource\ui' directory, to install them, simply change their filename to that of the actual file.  i.e. HudPlayerHealth_cross.res, would be renamed to HudPlayerHealth.res, and so on
