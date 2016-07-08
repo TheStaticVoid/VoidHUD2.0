@@ -3,7 +3,7 @@
 
  	"HudKothTimeStatus"
  	{
- 		if_comp
+ 		if_match
  		{
  			"zpos"		"5"
  		}
@@ -27,7 +27,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		
-		if_comp
+		if_match
  		{
  			"proportionaltoparent"	"1"
  			"xpos"					"cs-0.5"
@@ -57,7 +57,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 			
-			if_comp
+			if_match
  			{
  				"proportionaltoparent"	"1"
  				"xpos"			"15"
@@ -89,7 +89,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		
-		if_comp
+		if_match
  		{
  			"proportionaltoparent"	"1"
  			"xpos"					"cs-0.5"
@@ -119,7 +119,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 			
-			if_comp
+			if_match
  			{
  				"proportionaltoparent"	"1"
  				"xpos"			"rs1-15"

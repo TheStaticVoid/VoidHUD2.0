@@ -1,11 +1,5 @@
 "GameMenu" [$WIN32]
 {
-	"Version"
-	{
-		"label" "voidHUD Version Label" 
-		"subimage" ""
-		"OnlyAtMenu" "0"
-	}
 	"ResumeGameButton"
 	{
 		"label"			"#MMenu_ResumeGame"
@@ -13,82 +7,26 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
 	}
-	"QuickplayButton"
+	"FindAGameButton"
 	{
-		"label" "Quickplay!" 
-		"command" "quickplay"
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
-	"QuickplayChangeButton"
-	{
-		"label" "#MMenu_NewGame" 
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "#MMenu_PlayCoop" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
-	"PlayCompButton"
-	{
-		"label" "#MMenu_PlayComp"
-		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
-	"ServerBrowserButton"
-	{
-		"label" "#MMenu_Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
-	{
-		"label" "#MMenu_ChangeServer" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
-	}
-	"ReplayBrowserButton"
-	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-	}
+    "FindAGameButtonHalfWidth"
+     {
+         "label" "#MMenu_FindAGame" 
+  		"command" "toggle_play_menu"
+  		"subimage" "glyph_multiplayer"
+  		"OnlyInGame"	"1"
+     }
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"
 		"command" "engine vr_toggle"
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
-	}
-	"TrainingButton"
-	{
-		"label" "Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
-	"CreateServerButton"
-	{
-		"label" "#GameUI_GameMenu_CreateServer"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
 	"GeneralStoreButton"
 	{

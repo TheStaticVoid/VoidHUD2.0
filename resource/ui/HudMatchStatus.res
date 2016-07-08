@@ -1,4 +1,4 @@
-"Resource/UI/Competitive.res"
+"Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
  	{
@@ -8,10 +8,10 @@
  		"name_width"	"57"
  		"horiz_inset"	"2"
  	}
-	"RoundSignModel"
+	"HudMatchStatus"
 	{
 		"ControlName"	"CModelPanel"
-		"fieldName"		"RoundSignModel"
+		"fieldName"		"HudMatchStatus"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"		
@@ -26,7 +26,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/props_ui/round_banner.mdl"
+			"modelname"	"models/props_ui/banner.mdl"
 			"skin"		"0"
 			"angles_x"	"30"
 			"angles_y"	"180"
@@ -215,9 +215,15 @@
  		"zpos"				"0"
  		"wide"				"365"
  		"tall"				"28"
+        "visible"       "0"
  
  		"proportionaltoaparent"	"1"
  		"border"			"TFFatLineBorder"
+        
+        if_match
+        {
+            "visible"   "1"
+        }
  	}
 	"ObjectiveStatusTimePanel"
 	{
@@ -238,7 +244,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"sans14"
 
-		if_comp
+		if_match
 		{
 			"ypos_minmode"			"0"
 			"delta_item_x"			"35"
@@ -266,7 +272,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_comp
+			if_match
 			{
 				"proportionaltoparent"	"1"
 
@@ -550,8 +556,14 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
+        
+        if_large
+        {
+            "ypos"  "65"
+            "tall"      "385"
+        }
 
 		"BlueTeamBG"
 		{
@@ -645,6 +657,10 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
+            if_large
+             {
+                 "tall"  "315"
+             }
 		}
 		"BluePlayerListBG"
 		{
@@ -660,6 +676,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
+            if_large
+             {
+                 "tall"  "325"
+             }
 		}
 	}
 
@@ -672,8 +692,13 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
+        if_large
+         {
+             "ypos"      "65"
+             "tall"      "385"
+         }
 
 		"RedTeamBG"
 		{
@@ -767,6 +792,10 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
+            if_large
+             {
+                 "tall"  "315"
+             }
 		}
 		"RedPlayerListBG"
 		{
@@ -782,6 +811,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
+            if_large
+             {
+                 "tall"  "325"
+             }
 		}
 	}
 }

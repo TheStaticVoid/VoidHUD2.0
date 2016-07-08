@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+                Version 2.4.0.0
+----------------------------------------------
++ Updated all files for the recent TF2 patch
+- Removed the main menu for now, will redo it later
+
+
+----------------------------------------------
 				Version 2.3.0.8
 ----------------------------------------------
 ~ Updated all files for the recent TF2 patch

@@ -11,6 +11,10 @@ C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\
 
 If you are on Linux, this may be found in:
 ~/.steam/steam/steamapps/common/Team Fortress 2/tf/custom/
+an alternative path may be:
+~/.local/share/steam/steamapps/common/Team Fortress 2/tf/custom/
+
+(where ~ is your home directory)
 
 NOTE: On Linux, the voidHUD2.0 directory MUST be in lowercase (so, "voidhud2.0").
 
@@ -47,4 +51,4 @@ If your crosshair appears off-center, or doesn't look right, which is usually ca
                     Installation
 ----------------------------------------------
 
-Due to requests, I have added several different files in the 'resource\ui' directory, to install them, simply change their username to that of the actual file.  i.e. HudPlayerHealth_cross.res, would be renamed to HudPlayerHealth.res, and so on
+Due to requests, I have added several different files in the 'resource\ui' directory, to install them, simply change their filename to that of the actual file.  i.e. HudPlayerHealth_cross.res, would be renamed to HudPlayerHealth.res, and so on

@@ -324,7 +324,7 @@
 		"enabled"					"0"
 	}
 	
-	"Player1Medal"
+	"Player1Badge"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"Player1Medal"
@@ -407,7 +407,7 @@
 		"brighttext"				"0"
 	}
 	
-	"Player2Medal"
+	"Player2Badge"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"Player2Medal"
@@ -492,7 +492,7 @@
 		"brighttext"				"0"
 	}
 	
-	"Player3Medal"
+	"Player3Badge"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"Player3Medal"
@@ -618,7 +618,7 @@
 		"enabled"					"0"
 	}
 	
-	"KillStreakPlayer1Medal"
+	"KillStreakPlayer1Badge"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"KillStreakPlayer1Medal"
