@@ -1,6 +1,12 @@
 voidHUD Changelog
 
 ----------------------------------------------
+                Version 2.4.0.1
+----------------------------------------------
+~ Fixed the open console button being stuck in the main menu
+
+
+----------------------------------------------
                 Version 2.4.0.0
 ----------------------------------------------
 + Updated all files for the recent TF2 patch

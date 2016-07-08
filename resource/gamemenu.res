@@ -47,12 +47,6 @@
 		"OnlyAtMenu" "1"
 		"subimage"	"glyph_practice"
 	}
-	"ConsoleButton"
-	{
-		"label" "Open Console"
-		"command" "engine con_enable 1;toggleconsole"
-		"subimage" "glyph_multiplayer"
-	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
