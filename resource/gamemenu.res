@@ -1,4 +1,4 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
 	"ResumeGameButton"
 	{
@@ -12,15 +12,17 @@
 		"label" "#MMenu_FindAGame" 
 		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu"	"1"
 	}
-    "FindAGameButtonHalfWidth"
-     {
-         "label" "#MMenu_FindAGame" 
-  		"command" "toggle_play_menu"
-  		"subimage" "glyph_multiplayer"
-  		"OnlyInGame"	"1"
-     }
+
+	"FindAGameButtonHalfWidth"
+	{
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
+		"subimage" "glyph_multiplayer"
+		"OnlyInGame"	"1"
+	}
+
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"
@@ -28,6 +30,7 @@
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
+
 	"GeneralStoreButton"
 	{
 		"label" "Store"
@@ -39,13 +42,6 @@
 		"label" "Items"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
-	}
-	"DemoUIButton"
-	{
-		"label" "DemoUI"
-		"command" "engine demoui"
-		"OnlyAtMenu" "1"
-		"subimage"	"glyph_practice"
 	}
 
 	// These buttons are only shown while in-game
@@ -74,13 +70,6 @@
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
 	}
-	"ScoreboardSwitcher"
-	{
-		"label" "Toggle Minmode"
-		"command" "engine toggle cl_hud_minmode "
-		"OnlyInGame" "1"
-		"subimage"	"glyph_practice"
-	}
 	"ReportPlayerButton"
 	{
 		"label"			""
@@ -89,4 +78,57 @@
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
+    
+    "OptionsButton"
+    {
+        "label"     "Options"
+        "command"   "OpenOptionsDialog"
+        "subimage"  "glyph_options"
+    }
+    
+    "AdvancedSettingsButton"
+     {
+        "label"     "Adv. Options"
+        "command"   "opentf2options"
+        "subimage"  "glyph_options"
+    }
+    
+    "CloseGameButton"
+    {
+        "label"     "Quit"
+        "command"   "engine replay_confirmquit"
+        "OnlyAtMenu"    "1"
+        "subimage"  "glyph_quit"
+    }
+    
+    "DisconnectButton"
+    {
+        "label"     "Disconnect"
+        "command"   "engine disconnect"
+        "OnlyInGame"    "1"
+        "subimage"  "glyph_quit"
+    }
+    
+    "ConsoleButton"
+    {
+        "label"     "Console"
+        "command"   "engine con_enable 1;toggleconsole"
+        "subimage"  "glyph_multiplayer"
+    }
+    
+    "DemoUIButton"
+    {
+        "label" "DemoUI"
+        "command"   "engine demoui"
+        "OnlyAtMenu"    "1"
+        "subimage"  "glyph_practice"
+    }
+    
+    "SwapScoreboard"
+    {
+        "label" "Swap Scores"
+        "command"   "engine toggle cl_hud_minmode"
+        "OnlyInGame"    "1"
+        "subimage"  "glyph_practice"
+    }
 }
