@@ -15,42 +15,34 @@
 
 	"LeftSideBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-105"
-		"ypos"			"r60"
+		"xpos"			"c-140"
+		"ypos"			"r95"
 		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"34"
-		"visible"		"1"
+		"wide"			"280"
+		"tall"			"80"
+		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"src_corner_height" "40"
-		"src_corner_width" "40"
-		"draw_corner_height" 	"0"
-		"draw_corner_width" "0"
+		"image"			"../hud/objectives_flagpanel_bg_left"
+		"scaleImage"	"1"
 	}
-		
+
 	"RightSideBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
-		"xpos"			"c64"
-		"ypos"			"r60"
+		"xpos"			"c-140"
+		"ypos"			"r95"
 		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"34"
-		"visible"		"1"
+		"wide"			"280"
+		"tall"			"80"
+		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_red"
-		"scaleImage"	"1"	
-		"src_corner_height" "40"
-		"src_corner_width" "40"
-		"draw_corner_height" 	"0"
-		"draw_corner_width" "0"
+		"image"			"../hud/objectives_flagpanel_bg_right"
+		"scaleImage"	"1"
 	}
-		
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -63,75 +55,75 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-97"
-		"ypos"			"r60"
+		"xpos"			"c-75"
+		"ypos"			"r67"
 		"zpos"			"8"
 		"wide"			"80"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
-		"font"			"sans38"
+		"font"			"sans32"
 		"fgcolor"		"voidHPwhite"
-	}	
-		
+	}
+
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-96"
-		"ypos"			"r61"
+		"xpos"			"c-73"
+		"ypos"			"r66"
 		"zpos"			"7"
 		"wide"			"80"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
-		"font"			"sans38"
+		"font"			"sans32"
 		"fgcolor"		"voidHPgray"
-	}	
-							
+	}
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c17"
-		"ypos"			"r60"
+		"xpos"			"c-10"
+		"ypos"			"r67"
 		"zpos"			"8"
 		"wide"			"80"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%redscore%"
-		"font"			"sans38"
-		"fgcolor"		"voidHPwhite"		
-	}	
-		
+		"font"			"sans32"
+		"fgcolor"		"voidHPwhite"
+	}
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c16"
-		"ypos"			"r61"
+		"xpos"			"c-8"
+		"ypos"			"r66"
 		"zpos"			"7"
 		"wide"			"80"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%redscore%"
-		"font"			"sans38"
-		"fgcolor"		"voidHPgray"		
+		"font"			"sans32"
+		"fgcolor"		"voidHPgray"
 	}
 
 	"PlayingToCluster"
@@ -139,7 +131,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"PlayingToCluster"
 		"xpos"				"0"
-		"ypos"				"6"
+		"ypos"				"0"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
@@ -161,23 +153,24 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"sans12"
+			"font"			"sans12" //breaks
 			"fgcolor"		"voidHPwhite"
-		}	
-				
+		}
+
 		"PlayingToBG"
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"PlayingToBG"
-			"xpos"			"c-75"
-			"ypos"			"r60"
+			"xpos"			"c-62"
+			"ypos"			"r56"
 			"zpos"			"3"
-			"wide"			"150"
-			"tall"			"38"
+			"wide"			"120"
+			"tall"			"28"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/objectives_flagpanel_bg_playingto"
-			"scaleImage"	"1"	
+			"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+			"scaleImage"	"1"
 		}
 	}
 }
