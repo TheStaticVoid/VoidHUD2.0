@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+                Version 2.4.1.2
+----------------------------------------------
++ Added the create local server button to the dropdown menu ~credit to ObsidianMinor
++ Added the passtime HUD ~credit to ObsidianMinor
+
+
+----------------------------------------------
                 Version 2.4.1.1
 ----------------------------------------------
 ~ Fixed the main menu buttons overlapping buttons such as the replay button and report a bug button
