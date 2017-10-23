@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.4.2
+----------------------------------------------
++ Updated for Jungle Inferno
++ Reworked the main menu to include new features. I may change the sizings of the buttons at some point to match the width of the new stuff
+
+
+----------------------------------------------
                 Version 2.4.1.2
 ----------------------------------------------
 + Added the create local server button to the dropdown menu ~credit to ObsidianMinor

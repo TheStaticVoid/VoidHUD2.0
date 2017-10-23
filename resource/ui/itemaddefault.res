@@ -28,9 +28,11 @@
 		"zpos"			"10"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+		"mouseinputenabled" "0"
 
 		"font"			"AdFont_ItemName"
-		"fgcolor_override"	"235 227 203 255"
+		"fgcolor"		"235 227 203 255"
+		"use_proportional_insets" "1"
 		"textinsetx"	"5"
 		"textinsety"	"5"
 		"textAlignment"	"north-west"
@@ -48,7 +50,7 @@
 		"tall"					"p1"
 		"proportionaltoparent"	"1"
 
-		"allow_mouse_wheel_to_scroll" "1"
+		"allow_mouse_wheel_to_scroll" "0"
 		"mouseinputenabled"		"1"
 		"bottom_buffer"			"0"
 
@@ -132,8 +134,7 @@
 		"text_center"	"1"
 		"model_only"	"1"
 			
-		"deferred_description"	"1"
-		"deferred_icon"			"1"
+		"use_item_sounds"	"1"
 			
 		"itemmodelpanel"
 		{
@@ -141,8 +142,6 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-
-		"use_item_sounds"	"1"
 	}
 
 	"BuyButton"
@@ -171,6 +170,10 @@
 
 		"defaultBgColor_override"	"72 103 32 255"
 		"armedBgColor_override"		"72 133 32 255"
+		
+		"sound_armed"		"ui/item_info_mouseover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"MarketButton"
@@ -199,5 +202,9 @@
 
 		"defaultBgColor_override"	"72 103 32 255"
 		"armedBgColor_override"		"72 133 32 255"
+		
+		"sound_armed"		"ui/item_info_mouseover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

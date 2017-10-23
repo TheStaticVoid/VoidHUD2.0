@@ -1,28 +1,5 @@
 "GameMenu"
 {
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
-	}
-	"FindAGameButton"
-	{
-		"label" "#MMenu_FindAGame" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
-	}
-
-	"FindAGameButtonHalfWidth"
-	{
-		"label" "#MMenu_FindAGame" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyInGame"	"1"
-	}
-
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"
@@ -91,22 +68,6 @@
         "label"     "Adv. Options"
         "command"   "opentf2options"
         "subimage"  "glyph_options"
-    }
-    
-    "CloseGameButton"
-    {
-        "label"     "Quit"
-        "command"   "engine replay_confirmquit"
-        "OnlyAtMenu"    "1"
-        "subimage"  "glyph_quit"
-    }
-    
-    "DisconnectButton"
-    {
-        "label"     "Disconnect"
-        "command"   "engine disconnect"
-        "OnlyInGame"    "1"
-        "subimage"  "glyph_quit"
     }
     
     "ConsoleButton"
