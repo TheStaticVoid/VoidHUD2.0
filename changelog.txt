@@ -1,6 +1,12 @@
 voidHUD Changelog
 
 ----------------------------------------------
+				Version 2.4.2.1
+----------------------------------------------
+~ Fixed phlog meter appearing to the right side of the screen
+
+
+----------------------------------------------
 				Version 2.4.2
 ----------------------------------------------
 + Updated for Jungle Inferno
@@ -270,7 +276,6 @@ voidHUD Changelog
 				Version 2.2.3.2
 ----------------------------------------------
 ~ Hot fix from new valve update -- Tournament spectator is now working properly
-
 
 
 ----------------------------------------------
