@@ -2892,6 +2892,17 @@ Scheme
 		}
         
         // START VOIDHUD FONT INSTANCES
+        "sans8"
+        {
+            "1"
+            {
+                "name"      "Sansation"
+                "tall"      "8"
+                "weight"    "900"
+                "additive"  "0"
+                "antialias" "1"
+            }
+        }
         "sans10"
         {
             "1"

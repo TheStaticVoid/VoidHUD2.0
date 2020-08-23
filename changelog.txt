@@ -1,6 +1,13 @@
 voidHUD Changelog
 
 ----------------------------------------------
+        Version 2.4.3
+----------------------------------------------
++ Added content I missed to the main menu
+~ Fixed an issue with classes not showing at the top of the screen
+
+
+----------------------------------------------
 				Version 2.4.2.1
 ----------------------------------------------
 ~ Fixed phlog meter appearing to the right side of the screen

@@ -216,27 +216,71 @@
 			}
 		}
 
-		"LevelLabel"
+		 "DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
 			"xpos"			"65"
-			"ypos"			"15"
-			"wide"			"f0"
+			"ypos"			"16"
+			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"sans12"
+			"font"			"sans8"
 			"fgcolor_override"	"voidHPwhite"
 			"textAlignment"	"north-west"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+			}
+
+			"fonts"
+			{
+				"0"		"sans8"
+				"1"		"sans8"
+				"2"		"sans8"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"29"
+			"wide"			"195"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"sans8"
+			"fgcolor_override"	"voidHPwhite"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+			}
+
+			"fonts"
+			{
+				"0"		"sans8"
+				"1"		"sans8"
+				"2"		"sans8"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
 			}
 		}
 

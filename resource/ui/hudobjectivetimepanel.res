@@ -203,6 +203,10 @@
  			"proportionaltoparent"	"1"
  			"xpos"					"cs-0.5"
  			"ypos"					"21"
+      "font"          "sans14"
+      "font_hidef"    "sans14"
+      "font_lodef"    "sans14"
+      "fgcolor_override"  "voidHPwhite"
  		}
 	}	
 	"SetupBG"
