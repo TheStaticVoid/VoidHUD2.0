@@ -89,7 +89,7 @@
             "pinCorner"				"2"
             "visible"				"1"
             "enabled"				"1"
-            "labelText"				"voidHUD Version 2.4.3"
+            "labelText"				"voidHUD Classic 2.4.4"
             "textAlignment"			"center"
             "font"					"sans12"
             "fgcolor_override"      "voidHPwhite"
