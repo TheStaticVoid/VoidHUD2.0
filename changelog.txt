@@ -1,4 +1,9 @@
-voidHUD Changelog
+voidHUD Classic Changelog
+
+----------------------------------------------
+		Version 2.4.4
+----------------------------------------------
+~ Fixed a bug with the MvM currency panel not being displayed
 
 ----------------------------------------------
         Version 2.4.3
