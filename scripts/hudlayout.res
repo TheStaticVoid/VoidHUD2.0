@@ -47,6 +47,18 @@
 	
 		"red_active_xpos"			"102"
 	}	
+	
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"c65"
+		"ypos"				"r120"
+		"wide"				"100"
+		"tall"				"200"
+		"visible" 			"1"
+		"enabled" 			"1"
+	}
 
 	HudItemEffectMeter
 	{
